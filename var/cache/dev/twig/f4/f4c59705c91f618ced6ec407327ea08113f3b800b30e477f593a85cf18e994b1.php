@@ -15,11 +15,11 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_6690c82e51e5e8c0ff3620042ce9da912323b9b3589ed728660c7a29a2b88bfb = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_6690c82e51e5e8c0ff3620042ce9da912323b9b3589ed728660c7a29a2b88bfb->enter($__internal_6690c82e51e5e8c0ff3620042ce9da912323b9b3589ed728660c7a29a2b88bfb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_nav.html.twig"));
+        $__internal_f82d387a31cc5965e39964a9f409db812dfa2558a7143f67821b9e7864e3ecd0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f82d387a31cc5965e39964a9f409db812dfa2558a7143f67821b9e7864e3ecd0->enter($__internal_f82d387a31cc5965e39964a9f409db812dfa2558a7143f67821b9e7864e3ecd0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_nav.html.twig"));
 
-        $__internal_8398cc55fcf9e3c7a79a4bce25858669020ae448b90c0ad878eb4dbe56330620 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_8398cc55fcf9e3c7a79a4bce25858669020ae448b90c0ad878eb4dbe56330620->enter($__internal_8398cc55fcf9e3c7a79a4bce25858669020ae448b90c0ad878eb4dbe56330620_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_nav.html.twig"));
+        $__internal_56db0a8986c228659f47c7cf8283455e63b689740aa4e810d295100ef979fb09 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_56db0a8986c228659f47c7cf8283455e63b689740aa4e810d295100ef979fb09->enter($__internal_56db0a8986c228659f47c7cf8283455e63b689740aa4e810d295100ef979fb09_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_nav.html.twig"));
 
         // line 1
         echo "<!-- start:Left Menu -->
@@ -40,7 +40,7 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 \t\t\t</a>
 \t\t</li>
 \t\t\t<li class=\"ripple\">
-\t\t\t\t<a class=\"nav-header\" href=\"https://mymonero.com/#/\" target=\"_blank\"><span class=\"icon icon-chart\"></span> Mining Stats
+\t\t\t\t<a class=\"nav-header\" href=\"https://xmr.nanopool.org\" target=\"_blank\"><span class=\"icon icon-chart\"></span> Pool
 \t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
 \t\t\t</a>
 \t\t</li>
@@ -86,10 +86,10 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 </button>
 <!-- end: Mobile -->";
         
-        $__internal_6690c82e51e5e8c0ff3620042ce9da912323b9b3589ed728660c7a29a2b88bfb->leave($__internal_6690c82e51e5e8c0ff3620042ce9da912323b9b3589ed728660c7a29a2b88bfb_prof);
+        $__internal_f82d387a31cc5965e39964a9f409db812dfa2558a7143f67821b9e7864e3ecd0->leave($__internal_f82d387a31cc5965e39964a9f409db812dfa2558a7143f67821b9e7864e3ecd0_prof);
 
         
-        $__internal_8398cc55fcf9e3c7a79a4bce25858669020ae448b90c0ad878eb4dbe56330620->leave($__internal_8398cc55fcf9e3c7a79a4bce25858669020ae448b90c0ad878eb4dbe56330620_prof);
+        $__internal_56db0a8986c228659f47c7cf8283455e63b689740aa4e810d295100ef979fb09->leave($__internal_56db0a8986c228659f47c7cf8283455e63b689740aa4e810d295100ef979fb09_prof);
 
     }
 
@@ -125,7 +125,7 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 \t\t\t</a>
 \t\t</li>
 \t\t\t<li class=\"ripple\">
-\t\t\t\t<a class=\"nav-header\" href=\"https://mymonero.com/#/\" target=\"_blank\"><span class=\"icon icon-chart\"></span> Mining Stats
+\t\t\t\t<a class=\"nav-header\" href=\"https://xmr.nanopool.org\" target=\"_blank\"><span class=\"icon icon-chart\"></span> Pool
 \t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
 \t\t\t</a>
 \t\t</li>
