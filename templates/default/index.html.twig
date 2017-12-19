@@ -1,0 +1,62 @@
+{% extends 'base.html.twig' %}
+{% block title %}Configuration{% endblock %}
+{% block body %}
+	<!-- start: content -->
+	<div id="content">
+		<div class="panel">
+			<div class="panel-body">
+				<div class="col-md-6 col-sm-12">
+					<h3 class="animated fadeInLeft">Configuration WebMiner</h3>
+					<p class="animated fadeInDown"><span class="icon-ghost icons"></span> Anonymous Crypto Mining</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12" style="padding:20px;">
+			<div class="col-md-12 padding-0">
+				<div class="col-md-12 padding-0">
+					<div class="col-md-12">
+						<div class="panel box-v4">
+							<div class="panel-heading bg-white border-none">
+								<h4><span class="icon-control-play icons"></span> Mining</h4>
+							</div>
+							<div class="panel-body padding-0">
+								<div class="col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert">
+									<h2>Start Anonymous Mining!</h2>
+									<p>Create your Monero Wallet (<a href="https://mymonero.com/#/" target="_blank">MyMonero</a>) & Go !</p>
+									<b><span class="icon-ghost icons"></span> Anonymous Mining</b>
+									<hr>
+									{{ form_start(form) }}
+									<div class="col-md-12">
+										<div class="form-group">
+											<div class="input-group">
+												<span class="input-group-addon" id="basic-addon1">$</span>
+												{{ form_errors(form.wallet) }}
+												{{ form_widget(form.wallet) }}
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="input-group">
+												<span class="input-group-addon" id="basic-addon1">@</span>
+												{{ form_errors(form.username) }}
+												{{ form_widget(form.username) }}
+											</div>
+										</div>
+										
+									</div>
+									<div class="col-md-12">
+										<div class="form-group form-animate-checkbox">
+											<input type="checkbox" class="checkbox"  id="validate_agree" name="validate_agree" required="true">
+											<label>Please agree to our policy</label>
+										</div>
+									</div>
+									{{ form_end(form) }}
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end: content -->
+{% endblock %}

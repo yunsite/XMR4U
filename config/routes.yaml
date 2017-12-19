@@ -1,0 +1,10 @@
+index:
+    path: /
+    controller: App\Controller\DefaultController::index
+mining:
+    path: /Mining/{wallet}/{username}
+    controller: App\Controller\DefaultController::mining
+
+new:
+    path: /new
+    controller: App\Controller\DefaultController::new
