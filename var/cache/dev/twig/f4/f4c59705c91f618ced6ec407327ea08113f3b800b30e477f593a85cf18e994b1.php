@@ -15,11 +15,11 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_2acfa3198988112597bf4b249f331f3ca41511f60d6692441ad58c995958485a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_2acfa3198988112597bf4b249f331f3ca41511f60d6692441ad58c995958485a->enter($__internal_2acfa3198988112597bf4b249f331f3ca41511f60d6692441ad58c995958485a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_nav.html.twig"));
+        $__internal_f6dcac9b11daf84ed3676bd3ee5d8e1a939de01aa1d3099881aca2c368a810e5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f6dcac9b11daf84ed3676bd3ee5d8e1a939de01aa1d3099881aca2c368a810e5->enter($__internal_f6dcac9b11daf84ed3676bd3ee5d8e1a939de01aa1d3099881aca2c368a810e5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_nav.html.twig"));
 
-        $__internal_19c91ec17245f9b5f25521839b070f26bed98ca716905a6917ac7402e6976bcc = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_19c91ec17245f9b5f25521839b070f26bed98ca716905a6917ac7402e6976bcc->enter($__internal_19c91ec17245f9b5f25521839b070f26bed98ca716905a6917ac7402e6976bcc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_nav.html.twig"));
+        $__internal_aa159f1b8bc4319a3740b3d6ad3f1c16138a74cd0c8c886fefae553118718ee9 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_aa159f1b8bc4319a3740b3d6ad3f1c16138a74cd0c8c886fefae553118718ee9->enter($__internal_aa159f1b8bc4319a3740b3d6ad3f1c16138a74cd0c8c886fefae553118718ee9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_nav.html.twig"));
 
         // line 1
         echo "<!-- start:Left Menu -->
@@ -39,6 +39,11 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 \t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
 \t\t\t</a>
 \t\t</li>
+\t\t\t<li class=\"ripple\">
+\t\t\t\t<a class=\"nav-header\" href=\"https://mymonero.com/#/\" target=\"_blank\"><span class=\"icon icon-wallet\"></span> Create Wallet
+\t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
+\t\t\t</a>
+\t\t</li>
 \t</ul>
 </div>
 </div>
@@ -49,11 +54,20 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 \t<div class=\"col-md-12 sub-mimin-mobile-menu-list animated fadeInLeft\">
 \t\t<ul class=\"nav nav-list\">
 \t\t\t<li class=\"active ripple\">
-\t\t\t\t<a class=\"tree-toggle nav-header\">
+\t\t\t\t<a class=\"nav-header\">
 \t\t\t\t\t<span class=\"fa-home fa\" href=\"";
-        // line 26
+        // line 31
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index");
         echo "\"></span>Dashboard
+\t\t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
+\t\t\t\t</a>
+\t\t\t</li>
+\t\t\t<li class=\"ripple\">
+\t\t\t\t<a class=\"nav-header\">
+\t\t\t\t\t<span class=\"fa-home fa\" href=\"";
+        // line 37
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index");
+        echo "\"></span>Create Wallet
 \t\t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
 \t\t\t\t</a>
 \t\t\t</li>
@@ -66,10 +80,10 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 </button>
 <!-- end: Mobile -->";
         
-        $__internal_2acfa3198988112597bf4b249f331f3ca41511f60d6692441ad58c995958485a->leave($__internal_2acfa3198988112597bf4b249f331f3ca41511f60d6692441ad58c995958485a_prof);
+        $__internal_f6dcac9b11daf84ed3676bd3ee5d8e1a939de01aa1d3099881aca2c368a810e5->leave($__internal_f6dcac9b11daf84ed3676bd3ee5d8e1a939de01aa1d3099881aca2c368a810e5_prof);
 
         
-        $__internal_19c91ec17245f9b5f25521839b070f26bed98ca716905a6917ac7402e6976bcc->leave($__internal_19c91ec17245f9b5f25521839b070f26bed98ca716905a6917ac7402e6976bcc_prof);
+        $__internal_aa159f1b8bc4319a3740b3d6ad3f1c16138a74cd0c8c886fefae553118718ee9->leave($__internal_aa159f1b8bc4319a3740b3d6ad3f1c16138a74cd0c8c886fefae553118718ee9_prof);
 
     }
 
@@ -85,7 +99,7 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 
     public function getDebugInfo()
     {
-        return array (  55 => 26,  37 => 11,  25 => 1,);
+        return array (  69 => 37,  60 => 31,  37 => 11,  25 => 1,);
     }
 
     public function getSourceContext()
@@ -104,6 +118,11 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 \t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
 \t\t\t</a>
 \t\t</li>
+\t\t\t<li class=\"ripple\">
+\t\t\t\t<a class=\"nav-header\" href=\"https://mymonero.com/#/\" target=\"_blank\"><span class=\"icon icon-wallet\"></span> Create Wallet
+\t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
+\t\t\t</a>
+\t\t</li>
 \t</ul>
 </div>
 </div>
@@ -114,8 +133,14 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 \t<div class=\"col-md-12 sub-mimin-mobile-menu-list animated fadeInLeft\">
 \t\t<ul class=\"nav nav-list\">
 \t\t\t<li class=\"active ripple\">
-\t\t\t\t<a class=\"tree-toggle nav-header\">
+\t\t\t\t<a class=\"nav-header\">
 \t\t\t\t\t<span class=\"fa-home fa\" href=\"{{path('index')}}\"></span>Dashboard
+\t\t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
+\t\t\t\t</a>
+\t\t\t</li>
+\t\t\t<li class=\"ripple\">
+\t\t\t\t<a class=\"nav-header\">
+\t\t\t\t\t<span class=\"fa-home fa\" href=\"{{path('index')}}\"></span>Create Wallet
 \t\t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
 \t\t\t\t</a>
 \t\t\t</li>

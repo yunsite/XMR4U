@@ -23,8 +23,6 @@ class DefaultController extends Controller
     
     public function mining($wallet, $username)
     {
-        $number = mt_rand(0, 100);
-
         return $this->render('default/mining.html.twig', array(
             'wallet' => $wallet,
             'username' => $username,
@@ -34,8 +32,8 @@ class DefaultController extends Controller
      public function index(Request $request)
     {
         $task = new Configuration();
-        // $task->setUsername('Your Username');
-        // $task->setWallet('Your Wallet');
+        $task->setUsername('Anonymous');
+        $task->setWallet('46Z3zkzyutU61uQSdgfRxVKP2j3zgdUBiSdswXhsDysKJNmGhDu8EEsBEgfMuX6YXBQhv9qLB84yqeW9rqU4fDNZ9NvBGXR');
 
         $form = $this->createFormBuilder($task)
             ->add('username', TextType::class, array('attr' => array('class' => 'form-control', 'placeholder' => 'Username')))

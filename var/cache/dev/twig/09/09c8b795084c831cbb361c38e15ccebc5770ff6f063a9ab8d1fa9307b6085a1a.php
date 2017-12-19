@@ -22,47 +22,47 @@ class __TwigTemplate_5c41078a8cf43c3457e25868548571e7395471bd05e6717c7d8a1cc4f68
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_be4911e6cfcd98a58aa308c258a92ff972b01cf3bf18a2dab8ea67418c7f9464 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_be4911e6cfcd98a58aa308c258a92ff972b01cf3bf18a2dab8ea67418c7f9464->enter($__internal_be4911e6cfcd98a58aa308c258a92ff972b01cf3bf18a2dab8ea67418c7f9464_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/mining.html.twig"));
+        $__internal_3f7bac263197ef2b9f3c6806cd34aacd35593f65b05431f50250865e3f6edd45 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_3f7bac263197ef2b9f3c6806cd34aacd35593f65b05431f50250865e3f6edd45->enter($__internal_3f7bac263197ef2b9f3c6806cd34aacd35593f65b05431f50250865e3f6edd45_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/mining.html.twig"));
 
-        $__internal_7d7f3c5028e4b0222d3fc87f8fc8a3d9b7dcd506805300b1992160c194816981 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_7d7f3c5028e4b0222d3fc87f8fc8a3d9b7dcd506805300b1992160c194816981->enter($__internal_7d7f3c5028e4b0222d3fc87f8fc8a3d9b7dcd506805300b1992160c194816981_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/mining.html.twig"));
+        $__internal_ff4b2b203f3c79dc106effc05f1bba2e06460180f8ab2f087054560da42bd4db = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_ff4b2b203f3c79dc106effc05f1bba2e06460180f8ab2f087054560da42bd4db->enter($__internal_ff4b2b203f3c79dc106effc05f1bba2e06460180f8ab2f087054560da42bd4db_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/mining.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_be4911e6cfcd98a58aa308c258a92ff972b01cf3bf18a2dab8ea67418c7f9464->leave($__internal_be4911e6cfcd98a58aa308c258a92ff972b01cf3bf18a2dab8ea67418c7f9464_prof);
+        $__internal_3f7bac263197ef2b9f3c6806cd34aacd35593f65b05431f50250865e3f6edd45->leave($__internal_3f7bac263197ef2b9f3c6806cd34aacd35593f65b05431f50250865e3f6edd45_prof);
 
         
-        $__internal_7d7f3c5028e4b0222d3fc87f8fc8a3d9b7dcd506805300b1992160c194816981->leave($__internal_7d7f3c5028e4b0222d3fc87f8fc8a3d9b7dcd506805300b1992160c194816981_prof);
+        $__internal_ff4b2b203f3c79dc106effc05f1bba2e06460180f8ab2f087054560da42bd4db->leave($__internal_ff4b2b203f3c79dc106effc05f1bba2e06460180f8ab2f087054560da42bd4db_prof);
 
     }
 
     // line 2
     public function block_title($context, array $blocks = array())
     {
-        $__internal_cd40f10eee1e4d557146ba65bc009284a7cd4d9c63402576b098488d3b8815f4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_cd40f10eee1e4d557146ba65bc009284a7cd4d9c63402576b098488d3b8815f4->enter($__internal_cd40f10eee1e4d557146ba65bc009284a7cd4d9c63402576b098488d3b8815f4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_37696ab64f3959677842b69bc7ebd5c1440efc7d719054a04a9d3dbee852bd98 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_37696ab64f3959677842b69bc7ebd5c1440efc7d719054a04a9d3dbee852bd98->enter($__internal_37696ab64f3959677842b69bc7ebd5c1440efc7d719054a04a9d3dbee852bd98_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        $__internal_dae7c00cdd70be7c58c40b1875799427213dbaf13d48f5b62d0e05329a0879bc = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_dae7c00cdd70be7c58c40b1875799427213dbaf13d48f5b62d0e05329a0879bc->enter($__internal_dae7c00cdd70be7c58c40b1875799427213dbaf13d48f5b62d0e05329a0879bc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_763145e257d2eac0f4de956077b201bdfb572e739e799dd5a73de1eb59c75675 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_763145e257d2eac0f4de956077b201bdfb572e739e799dd5a73de1eb59c75675->enter($__internal_763145e257d2eac0f4de956077b201bdfb572e739e799dd5a73de1eb59c75675_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "Mining";
         
-        $__internal_dae7c00cdd70be7c58c40b1875799427213dbaf13d48f5b62d0e05329a0879bc->leave($__internal_dae7c00cdd70be7c58c40b1875799427213dbaf13d48f5b62d0e05329a0879bc_prof);
+        $__internal_763145e257d2eac0f4de956077b201bdfb572e739e799dd5a73de1eb59c75675->leave($__internal_763145e257d2eac0f4de956077b201bdfb572e739e799dd5a73de1eb59c75675_prof);
 
         
-        $__internal_cd40f10eee1e4d557146ba65bc009284a7cd4d9c63402576b098488d3b8815f4->leave($__internal_cd40f10eee1e4d557146ba65bc009284a7cd4d9c63402576b098488d3b8815f4_prof);
+        $__internal_37696ab64f3959677842b69bc7ebd5c1440efc7d719054a04a9d3dbee852bd98->leave($__internal_37696ab64f3959677842b69bc7ebd5c1440efc7d719054a04a9d3dbee852bd98_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_c0796efb69e1aed189af5d220524d0501d6afeb5fd5fc5f0cba7f3702bed9eae = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_c0796efb69e1aed189af5d220524d0501d6afeb5fd5fc5f0cba7f3702bed9eae->enter($__internal_c0796efb69e1aed189af5d220524d0501d6afeb5fd5fc5f0cba7f3702bed9eae_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_faab7e0d92bc0ab2c6c222e302605c1d09653cfa9008828a79dc50359a7fcc30 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_faab7e0d92bc0ab2c6c222e302605c1d09653cfa9008828a79dc50359a7fcc30->enter($__internal_faab7e0d92bc0ab2c6c222e302605c1d09653cfa9008828a79dc50359a7fcc30_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_89718c0d08916905845ffc90c289478ca4419272fc478d455cd958893e39603e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_89718c0d08916905845ffc90c289478ca4419272fc478d455cd958893e39603e->enter($__internal_89718c0d08916905845ffc90c289478ca4419272fc478d455cd958893e39603e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_2d4f90fa5b858c914032786f302862f7452b69308a82048aec9fd335af54e7d6 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_2d4f90fa5b858c914032786f302862f7452b69308a82048aec9fd335af54e7d6->enter($__internal_2d4f90fa5b858c914032786f302862f7452b69308a82048aec9fd335af54e7d6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "\t<!-- start: content -->
@@ -81,7 +81,7 @@ class __TwigTemplate_5c41078a8cf43c3457e25868548571e7395471bd05e6717c7d8a1cc4f68
 \t\t\t\t\t<div class=\"col-md-12\">
 \t\t\t\t\t\t<div class=\"panel box-v4\">
 \t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none\">
-\t\t\t\t\t\t\t\t<h4><span class=\"icon-check icons\"></span> Mining</h4>
+\t\t\t\t\t\t\t\t<h3><span class=\"icon-check icons\"></span> Mining</h3>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<div class=\"panel-body padding-0\">
 \t\t\t\t\t\t\t\t<div class=\"col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert\">
@@ -177,6 +177,21 @@ class __TwigTemplate_5c41078a8cf43c3457e25868548571e7395471bd05e6717c7d8a1cc4f68
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"col-md-12\">
+\t\t\t\t\t\t<div class=\"panel box-v4\">
+\t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none\">
+\t\t\t\t\t\t\t\t<h3><i class=\"fa fa-area-chart\"></i> Chart</h3>
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t<div class=\"panel-body padding-0\">
+\t\t\t\t\t\t\t\t<div class=\"col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert\">
+\t\t\t\t\t\t\t\t";
+        // line 112
+        $this->loadTemplate("_chart.html.twig", "default/mining.html.twig", 112)->display($context);
+        // line 113
+        echo "\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t</div>
@@ -184,10 +199,10 @@ class __TwigTemplate_5c41078a8cf43c3457e25868548571e7395471bd05e6717c7d8a1cc4f68
 \t<!-- end: content -->
 ";
         
-        $__internal_89718c0d08916905845ffc90c289478ca4419272fc478d455cd958893e39603e->leave($__internal_89718c0d08916905845ffc90c289478ca4419272fc478d455cd958893e39603e_prof);
+        $__internal_2d4f90fa5b858c914032786f302862f7452b69308a82048aec9fd335af54e7d6->leave($__internal_2d4f90fa5b858c914032786f302862f7452b69308a82048aec9fd335af54e7d6_prof);
 
         
-        $__internal_c0796efb69e1aed189af5d220524d0501d6afeb5fd5fc5f0cba7f3702bed9eae->leave($__internal_c0796efb69e1aed189af5d220524d0501d6afeb5fd5fc5f0cba7f3702bed9eae_prof);
+        $__internal_faab7e0d92bc0ab2c6c222e302605c1d09653cfa9008828a79dc50359a7fcc30->leave($__internal_faab7e0d92bc0ab2c6c222e302605c1d09653cfa9008828a79dc50359a7fcc30_prof);
 
     }
 
@@ -203,7 +218,7 @@ class __TwigTemplate_5c41078a8cf43c3457e25868548571e7395471bd05e6717c7d8a1cc4f68
 
     public function getDebugInfo()
     {
-        return array (  162 => 90,  155 => 86,  93 => 27,  68 => 4,  59 => 3,  41 => 2,  11 => 1,);
+        return array (  191 => 113,  189 => 112,  162 => 90,  155 => 86,  93 => 27,  68 => 4,  59 => 3,  41 => 2,  11 => 1,);
     }
 
     public function getSourceContext()
@@ -227,7 +242,7 @@ class __TwigTemplate_5c41078a8cf43c3457e25868548571e7395471bd05e6717c7d8a1cc4f68
 \t\t\t\t\t<div class=\"col-md-12\">
 \t\t\t\t\t\t<div class=\"panel box-v4\">
 \t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none\">
-\t\t\t\t\t\t\t\t<h4><span class=\"icon-check icons\"></span> Mining</h4>
+\t\t\t\t\t\t\t\t<h3><span class=\"icon-check icons\"></span> Mining</h3>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<div class=\"panel-body padding-0\">
 \t\t\t\t\t\t\t\t<div class=\"col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert\">
@@ -312,11 +327,23 @@ class __TwigTemplate_5c41078a8cf43c3457e25868548571e7395471bd05e6717c7d8a1cc4f68
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"col-md-12\">
+\t\t\t\t\t\t<div class=\"panel box-v4\">
+\t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none\">
+\t\t\t\t\t\t\t\t<h3><i class=\"fa fa-area-chart\"></i> Chart</h3>
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t<div class=\"panel-body padding-0\">
+\t\t\t\t\t\t\t\t<div class=\"col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert\">
+\t\t\t\t\t\t\t\t{% include '_chart.html.twig' %}
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
 \t\t\t\t</div>
 \t\t\t</div>
 \t\t</div>
 \t</div>
 \t<!-- end: content -->
-{% endblock %}", "default/mining.html.twig", "/var/www/miner/templates/default/mining.html.twig");
+{% endblock %}", "default/mining.html.twig", "/Users/Slote/Desktop/XMR4U/templates/default/mining.html.twig");
     }
 }

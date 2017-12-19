@@ -15,11 +15,11 @@ class __TwigTemplate_daff2ac5b3b6ea0e8ce054cf06a8147d9a64da0b0ab76caf276d88b57eb
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_59458ef261da072e9b0a70eb367f80fe6f5c0fa9b06981f3816d1cc451f273aa = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_59458ef261da072e9b0a70eb367f80fe6f5c0fa9b06981f3816d1cc451f273aa->enter($__internal_59458ef261da072e9b0a70eb367f80fe6f5c0fa9b06981f3816d1cc451f273aa_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/trace.txt.twig"));
+        $__internal_2313cc23aa4d609bfed59530fdfd8bbe74305192acb53b94a7a3ae0d5a3304dd = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2313cc23aa4d609bfed59530fdfd8bbe74305192acb53b94a7a3ae0d5a3304dd->enter($__internal_2313cc23aa4d609bfed59530fdfd8bbe74305192acb53b94a7a3ae0d5a3304dd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/trace.txt.twig"));
 
-        $__internal_5ae16c3257ead970481c3d5771ffa1fa558de4e285fd9257fb4bc0642f3ac91b = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_5ae16c3257ead970481c3d5771ffa1fa558de4e285fd9257fb4bc0642f3ac91b->enter($__internal_5ae16c3257ead970481c3d5771ffa1fa558de4e285fd9257fb4bc0642f3ac91b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/trace.txt.twig"));
+        $__internal_9a5ccc76d71318b2ec531f73767d7db29ccfcabe6aeb579f8f978e7a629fc18d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_9a5ccc76d71318b2ec531f73767d7db29ccfcabe6aeb579f8f978e7a629fc18d->enter($__internal_9a5ccc76d71318b2ec531f73767d7db29ccfcabe6aeb579f8f978e7a629fc18d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/trace.txt.twig"));
 
         // line 1
         if (twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["trace"]) || array_key_exists("trace", $context) ? $context["trace"] : (function () { throw new Twig_Error_Runtime('Variable "trace" does not exist.', 1, $this->getSourceContext()); })()), "function", array())) {
@@ -41,10 +41,10 @@ class __TwigTemplate_daff2ac5b3b6ea0e8ce054cf06a8147d9a64da0b0ab76caf276d88b57eb
             echo ((twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["trace"]) || array_key_exists("trace", $context) ? $context["trace"] : (function () { throw new Twig_Error_Runtime('Variable "trace" does not exist.', 5, $this->getSourceContext()); })()), "function", array())) ? (")") : (""));
         }
         
-        $__internal_59458ef261da072e9b0a70eb367f80fe6f5c0fa9b06981f3816d1cc451f273aa->leave($__internal_59458ef261da072e9b0a70eb367f80fe6f5c0fa9b06981f3816d1cc451f273aa_prof);
+        $__internal_2313cc23aa4d609bfed59530fdfd8bbe74305192acb53b94a7a3ae0d5a3304dd->leave($__internal_2313cc23aa4d609bfed59530fdfd8bbe74305192acb53b94a7a3ae0d5a3304dd_prof);
 
         
-        $__internal_5ae16c3257ead970481c3d5771ffa1fa558de4e285fd9257fb4bc0642f3ac91b->leave($__internal_5ae16c3257ead970481c3d5771ffa1fa558de4e285fd9257fb4bc0642f3ac91b_prof);
+        $__internal_9a5ccc76d71318b2ec531f73767d7db29ccfcabe6aeb579f8f978e7a629fc18d->leave($__internal_9a5ccc76d71318b2ec531f73767d7db29ccfcabe6aeb579f8f978e7a629fc18d_prof);
 
     }
 
@@ -71,6 +71,6 @@ at {{ trace.class ~ trace.type ~ trace.function }}({{ trace.args|format_args }})
 {% if trace.file|default('') is not empty and trace.line|default('') is not empty %}
   {{- trace.function ? '\\n     (' : 'at '}}{{ trace.file|format_file(trace.line)|striptags|replace({ (' at line ' ~ trace.line): '' }) }}:{{ trace.line }}{{ trace.function ? ')' }}
 {%- endif %}
-", "@Twig/Exception/trace.txt.twig", "/var/www/miner/vendor/symfony/twig-bundle/Resources/views/Exception/trace.txt.twig");
+", "@Twig/Exception/trace.txt.twig", "/Users/Slote/Desktop/XMR4U/vendor/symfony/twig-bundle/Resources/views/Exception/trace.txt.twig");
     }
 }

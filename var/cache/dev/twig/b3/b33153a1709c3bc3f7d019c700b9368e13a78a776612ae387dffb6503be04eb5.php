@@ -15,11 +15,11 @@ class __TwigTemplate_f3c4d23bf4b77d5bb028ae64d1aae352a46519252fbe1ea22ebf7cc29ed
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_a7c1092d2c427483894f86252bae7bda034804bb968f146f9fe24b5289d536e5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_a7c1092d2c427483894f86252bae7bda034804bb968f146f9fe24b5289d536e5->enter($__internal_a7c1092d2c427483894f86252bae7bda034804bb968f146f9fe24b5289d536e5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_header.html.twig"));
+        $__internal_fee1ffbdcb0ed90a5477702e2d6de04269d44af3186619ff350428c13fff2069 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_fee1ffbdcb0ed90a5477702e2d6de04269d44af3186619ff350428c13fff2069->enter($__internal_fee1ffbdcb0ed90a5477702e2d6de04269d44af3186619ff350428c13fff2069_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_header.html.twig"));
 
-        $__internal_6744344d28d48eea51ad82478c84c155e3828b52ba6083400a99235a7d224195 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_6744344d28d48eea51ad82478c84c155e3828b52ba6083400a99235a7d224195->enter($__internal_6744344d28d48eea51ad82478c84c155e3828b52ba6083400a99235a7d224195_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_header.html.twig"));
+        $__internal_a08fed11ef96792ce38140dad2fce16d70eb672a9738da866740b6a4c485ad14 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_a08fed11ef96792ce38140dad2fce16d70eb672a9738da866740b6a4c485ad14->enter($__internal_a08fed11ef96792ce38140dad2fce16d70eb672a9738da866740b6a4c485ad14_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_header.html.twig"));
 
         // line 1
         echo "<!-- start: Header -->
@@ -39,7 +39,7 @@ class __TwigTemplate_f3c4d23bf4b77d5bb028ae64d1aae352a46519252fbe1ea22ebf7cc29ed
 \t\t\t\t<li class=\"dropdown avatar-dropdown\">
 \t\t\t\t\t<img src=\"";
         // line 16
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("build/img/avatar.jpg"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("build/img/rick_head.png"), "html", null, true);
         echo "\" class=\"img-circle avatar\" alt=\"user name\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\"/>
 \t\t\t\t\t<ul class=\"dropdown-menu user-dropdown\">
 \t\t\t\t\t\t<li><a href=\"http://portfolio.slote.me\" target=\"_blank\"><span class=\"fa fa-user\"></span> My Portfolio</a></li>
@@ -52,10 +52,10 @@ class __TwigTemplate_f3c4d23bf4b77d5bb028ae64d1aae352a46519252fbe1ea22ebf7cc29ed
 </nav>
 <!-- end: Header -->";
         
-        $__internal_a7c1092d2c427483894f86252bae7bda034804bb968f146f9fe24b5289d536e5->leave($__internal_a7c1092d2c427483894f86252bae7bda034804bb968f146f9fe24b5289d536e5_prof);
+        $__internal_fee1ffbdcb0ed90a5477702e2d6de04269d44af3186619ff350428c13fff2069->leave($__internal_fee1ffbdcb0ed90a5477702e2d6de04269d44af3186619ff350428c13fff2069_prof);
 
         
-        $__internal_6744344d28d48eea51ad82478c84c155e3828b52ba6083400a99235a7d224195->leave($__internal_6744344d28d48eea51ad82478c84c155e3828b52ba6083400a99235a7d224195_prof);
+        $__internal_a08fed11ef96792ce38140dad2fce16d70eb672a9738da866740b6a4c485ad14->leave($__internal_a08fed11ef96792ce38140dad2fce16d70eb672a9738da866740b6a4c485ad14_prof);
 
     }
 
@@ -91,7 +91,7 @@ class __TwigTemplate_f3c4d23bf4b77d5bb028ae64d1aae352a46519252fbe1ea22ebf7cc29ed
 \t\t\t<ul class=\"nav navbar-nav navbar-right user-nav\">
 \t\t\t\t<li class=\"user-name\"><span>Slote</span></li>
 \t\t\t\t<li class=\"dropdown avatar-dropdown\">
-\t\t\t\t\t<img src=\"{{asset('build/img/avatar.jpg')}}\" class=\"img-circle avatar\" alt=\"user name\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\"/>
+\t\t\t\t\t<img src=\"{{asset('build/img/rick_head.png')}}\" class=\"img-circle avatar\" alt=\"user name\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\"/>
 \t\t\t\t\t<ul class=\"dropdown-menu user-dropdown\">
 \t\t\t\t\t\t<li><a href=\"http://portfolio.slote.me\" target=\"_blank\"><span class=\"fa fa-user\"></span> My Portfolio</a></li>
 \t\t\t\t\t</ul>
