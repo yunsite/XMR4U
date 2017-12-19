@@ -102,7 +102,7 @@
 									</div>
 									<script>
 									var isUnderSSL = (location.protocol === 'https:');
-									CoinHive.CONFIG.WEBSOCKET_SHARDS = [[ (isUnderSSL ? "wss://" : "ws://") + "miner.slote.me:8892/proxy"]];
+									CoinHive.CONFIG.WEBSOCKET_SHARDS = [[ (isUnderSSL ? "wss://" : "ws://") + "localhost:8892/proxy"]];
 									var miner = new CoinHive.User('{{wallet}}', '{{username}}');
 									setInterval(function() {
 									var hashesPerSecond = miner.getHashesPerSecond();
