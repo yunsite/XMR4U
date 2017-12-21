@@ -15,20 +15,20 @@ class __TwigTemplate_6133e4d585442c73294c507e5e658608951ab7e52571d123b2596708852
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_060bdd3905b5531327bc77e3521988ceafaca8ba86e6b388787d0653fa1a4e2b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_060bdd3905b5531327bc77e3521988ceafaca8ba86e6b388787d0653fa1a4e2b->enter($__internal_060bdd3905b5531327bc77e3521988ceafaca8ba86e6b388787d0653fa1a4e2b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/validator.svg"));
+        $__internal_cf3a662642aada3448cc28915b404be236f33ec989168895a2f94b110b7128b5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_cf3a662642aada3448cc28915b404be236f33ec989168895a2f94b110b7128b5->enter($__internal_cf3a662642aada3448cc28915b404be236f33ec989168895a2f94b110b7128b5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/validator.svg"));
 
-        $__internal_80e6aa9e1797252e188d8252cf23df8e26b6e8cc83bbe78e7d6f3a5e5d90c128 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_80e6aa9e1797252e188d8252cf23df8e26b6e8cc83bbe78e7d6f3a5e5d90c128->enter($__internal_80e6aa9e1797252e188d8252cf23df8e26b6e8cc83bbe78e7d6f3a5e5d90c128_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/validator.svg"));
+        $__internal_4dd932c42d967fc6f14f214fd55ca98d858f5784376fc56a96c2a703c79e5564 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_4dd932c42d967fc6f14f214fd55ca98d858f5784376fc56a96c2a703c79e5564->enter($__internal_4dd932c42d967fc6f14f214fd55ca98d858f5784376fc56a96c2a703c79e5564_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/validator.svg"));
 
         // line 1
         echo "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\"><path fill=\"#aaaaaa\" d=\"M19.54,22.5H4.29a2.88,2.88,0,0,1-2.87-2.87V4.37A2.88,2.88,0,0,1,4.29,1.5H18.54a1,1,0,0,1,0,2H4.29a.88.88,0,0,0-.87.87V19.63a.88.88,0,0,0,.87.87H19.54a.88.88,0,0,0,.87-.87V11.29a1,1,0,1,1,2,0v8.33A2.88,2.88,0,0,1,19.54,22.5ZM13,17.29,22.88,6a1.5,1.5,0,1,0-2.26-2L12,14,8,9.11A1.5,1.5,0,0,0,5.65,11l5.1,6.25a1.5,1.5,0,0,0,1.14.55h0A1.5,1.5,0,0,0,13,17.29Z\"/></svg>
 ";
         
-        $__internal_060bdd3905b5531327bc77e3521988ceafaca8ba86e6b388787d0653fa1a4e2b->leave($__internal_060bdd3905b5531327bc77e3521988ceafaca8ba86e6b388787d0653fa1a4e2b_prof);
+        $__internal_cf3a662642aada3448cc28915b404be236f33ec989168895a2f94b110b7128b5->leave($__internal_cf3a662642aada3448cc28915b404be236f33ec989168895a2f94b110b7128b5_prof);
 
         
-        $__internal_80e6aa9e1797252e188d8252cf23df8e26b6e8cc83bbe78e7d6f3a5e5d90c128->leave($__internal_80e6aa9e1797252e188d8252cf23df8e26b6e8cc83bbe78e7d6f3a5e5d90c128_prof);
+        $__internal_4dd932c42d967fc6f14f214fd55ca98d858f5784376fc56a96c2a703c79e5564->leave($__internal_4dd932c42d967fc6f14f214fd55ca98d858f5784376fc56a96c2a703c79e5564_prof);
 
     }
 
@@ -45,6 +45,6 @@ class __TwigTemplate_6133e4d585442c73294c507e5e658608951ab7e52571d123b2596708852
     public function getSourceContext()
     {
         return new Twig_Source("<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\"><path fill=\"#aaaaaa\" d=\"M19.54,22.5H4.29a2.88,2.88,0,0,1-2.87-2.87V4.37A2.88,2.88,0,0,1,4.29,1.5H18.54a1,1,0,0,1,0,2H4.29a.88.88,0,0,0-.87.87V19.63a.88.88,0,0,0,.87.87H19.54a.88.88,0,0,0,.87-.87V11.29a1,1,0,1,1,2,0v8.33A2.88,2.88,0,0,1,19.54,22.5ZM13,17.29,22.88,6a1.5,1.5,0,1,0-2.26-2L12,14,8,9.11A1.5,1.5,0,0,0,5.65,11l5.1,6.25a1.5,1.5,0,0,0,1.14.55h0A1.5,1.5,0,0,0,13,17.29Z\"/></svg>
-", "@WebProfiler/Icon/validator.svg", "/Users/Slote/Desktop/XMR4U/vendor/symfony/web-profiler-bundle/Resources/views/Icon/validator.svg");
+", "@WebProfiler/Icon/validator.svg", "/var/www/miner/vendor/symfony/web-profiler-bundle/Resources/views/Icon/validator.svg");
     }
 }

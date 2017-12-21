@@ -15,11 +15,11 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_1caf2d09e7337fb8dd2c2093ebb9db25ea1032d2ba9846e338b3a457650eb119 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_1caf2d09e7337fb8dd2c2093ebb9db25ea1032d2ba9846e338b3a457650eb119->enter($__internal_1caf2d09e7337fb8dd2c2093ebb9db25ea1032d2ba9846e338b3a457650eb119_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_nav.html.twig"));
+        $__internal_52b35c531775ec140585d864a87e569acd621ad607e99801daf45f12988e6790 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_52b35c531775ec140585d864a87e569acd621ad607e99801daf45f12988e6790->enter($__internal_52b35c531775ec140585d864a87e569acd621ad607e99801daf45f12988e6790_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_nav.html.twig"));
 
-        $__internal_774d077ac39a0cc8e1b869c717cf8008cd532c010f5d06d5c4ea601927409e32 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_774d077ac39a0cc8e1b869c717cf8008cd532c010f5d06d5c4ea601927409e32->enter($__internal_774d077ac39a0cc8e1b869c717cf8008cd532c010f5d06d5c4ea601927409e32_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_nav.html.twig"));
+        $__internal_9b7926df030e19f95ab88d6d06642c4efd6618e361092e79237be9bea07a94eb = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_9b7926df030e19f95ab88d6d06642c4efd6618e361092e79237be9bea07a94eb->enter($__internal_9b7926df030e19f95ab88d6d06642c4efd6618e361092e79237be9bea07a94eb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_nav.html.twig"));
 
         // line 1
         echo "<!-- start:Left Menu -->
@@ -89,10 +89,10 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 </button>
 <!-- end: Mobile -->";
         
-        $__internal_1caf2d09e7337fb8dd2c2093ebb9db25ea1032d2ba9846e338b3a457650eb119->leave($__internal_1caf2d09e7337fb8dd2c2093ebb9db25ea1032d2ba9846e338b3a457650eb119_prof);
+        $__internal_52b35c531775ec140585d864a87e569acd621ad607e99801daf45f12988e6790->leave($__internal_52b35c531775ec140585d864a87e569acd621ad607e99801daf45f12988e6790_prof);
 
         
-        $__internal_774d077ac39a0cc8e1b869c717cf8008cd532c010f5d06d5c4ea601927409e32->leave($__internal_774d077ac39a0cc8e1b869c717cf8008cd532c010f5d06d5c4ea601927409e32_prof);
+        $__internal_9b7926df030e19f95ab88d6d06642c4efd6618e361092e79237be9bea07a94eb->leave($__internal_9b7926df030e19f95ab88d6d06642c4efd6618e361092e79237be9bea07a94eb_prof);
 
     }
 
@@ -172,6 +172,6 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 <button id=\"mimin-mobile-menu-opener\" class=\"animated rubberBand btn btn-circle btn-danger\">
 <span class=\"fa fa-bars\"></span>
 </button>
-<!-- end: Mobile -->", "_nav.html.twig", "/Users/Slote/Desktop/XMR4U/templates/_nav.html.twig");
+<!-- end: Mobile -->", "_nav.html.twig", "/var/www/miner/templates/_nav.html.twig");
     }
 }

@@ -15,11 +15,11 @@ class __TwigTemplate_c647f4f8918e305f2c80c2c4f4824a7e15466ec74778cba3d33877716e3
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_88a8214b2e95e5a613700a651edd1112a23cc505f69d01e62ca5538eade182c0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_88a8214b2e95e5a613700a651edd1112a23cc505f69d01e62ca5538eade182c0->enter($__internal_88a8214b2e95e5a613700a651edd1112a23cc505f69d01e62ca5538eade182c0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/radio_widget.html.php"));
+        $__internal_14d9c5a2b42f98991982b5d2af754892eb7a9bfe09848b08c036d7cee99a9823 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_14d9c5a2b42f98991982b5d2af754892eb7a9bfe09848b08c036d7cee99a9823->enter($__internal_14d9c5a2b42f98991982b5d2af754892eb7a9bfe09848b08c036d7cee99a9823_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/radio_widget.html.php"));
 
-        $__internal_e515732d2a705758c6a6766c3097aec877d8ecc0fbe171ecb33e46041ea7db2d = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_e515732d2a705758c6a6766c3097aec877d8ecc0fbe171ecb33e46041ea7db2d->enter($__internal_e515732d2a705758c6a6766c3097aec877d8ecc0fbe171ecb33e46041ea7db2d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/radio_widget.html.php"));
+        $__internal_fce7bab4249cbcfda646cf9b1ef03390b328bf58efbc3b8be6926272b7039952 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_fce7bab4249cbcfda646cf9b1ef03390b328bf58efbc3b8be6926272b7039952->enter($__internal_fce7bab4249cbcfda646cf9b1ef03390b328bf58efbc3b8be6926272b7039952_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/radio_widget.html.php"));
 
         // line 1
         echo "<input type=\"radio\"
@@ -29,10 +29,10 @@ class __TwigTemplate_c647f4f8918e305f2c80c2c4f4824a7e15466ec74778cba3d33877716e3
 />
 ";
         
-        $__internal_88a8214b2e95e5a613700a651edd1112a23cc505f69d01e62ca5538eade182c0->leave($__internal_88a8214b2e95e5a613700a651edd1112a23cc505f69d01e62ca5538eade182c0_prof);
+        $__internal_14d9c5a2b42f98991982b5d2af754892eb7a9bfe09848b08c036d7cee99a9823->leave($__internal_14d9c5a2b42f98991982b5d2af754892eb7a9bfe09848b08c036d7cee99a9823_prof);
 
         
-        $__internal_e515732d2a705758c6a6766c3097aec877d8ecc0fbe171ecb33e46041ea7db2d->leave($__internal_e515732d2a705758c6a6766c3097aec877d8ecc0fbe171ecb33e46041ea7db2d_prof);
+        $__internal_fce7bab4249cbcfda646cf9b1ef03390b328bf58efbc3b8be6926272b7039952->leave($__internal_fce7bab4249cbcfda646cf9b1ef03390b328bf58efbc3b8be6926272b7039952_prof);
 
     }
 
@@ -53,6 +53,6 @@ class __TwigTemplate_c647f4f8918e305f2c80c2c4f4824a7e15466ec74778cba3d33877716e3
     value=\"<?php echo \$view->escape(\$value) ?>\"
     <?php if (\$checked): ?> checked=\"checked\"<?php endif ?>
 />
-", "@Framework/Form/radio_widget.html.php", "/Users/Slote/Desktop/XMR4U/vendor/symfony/framework-bundle/Resources/views/Form/radio_widget.html.php");
+", "@Framework/Form/radio_widget.html.php", "/var/www/miner/vendor/symfony/framework-bundle/Resources/views/Form/radio_widget.html.php");
     }
 }

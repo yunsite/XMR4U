@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
   <parameters>
-    <parameter key="kernel.root_dir">/Users/Slote/Desktop/XMR4U/src</parameter>
-    <parameter key="kernel.project_dir">/Users/Slote/Desktop/XMR4U</parameter>
+    <parameter key="kernel.root_dir">/var/www/miner/src</parameter>
+    <parameter key="kernel.project_dir">/var/www/miner</parameter>
     <parameter key="kernel.environment">dev</parameter>
     <parameter key="kernel.debug">true</parameter>
     <parameter key="kernel.name">src</parameter>
-    <parameter key="kernel.cache_dir">/Users/Slote/Desktop/XMR4U/var/cache/dev</parameter>
-    <parameter key="kernel.logs_dir">/Users/Slote/Desktop/XMR4U/var/log</parameter>
+    <parameter key="kernel.cache_dir">/var/www/miner/var/cache/dev</parameter>
+    <parameter key="kernel.logs_dir">/var/www/miner/var/log</parameter>
     <parameter key="kernel.bundles" type="collection">
       <parameter key="FrameworkBundle">Symfony\Bundle\FrameworkBundle\FrameworkBundle</parameter>
       <parameter key="WebProfilerBundle">Symfony\Bundle\WebProfilerBundle\WebProfilerBundle</parameter>
@@ -15,15 +15,15 @@
     </parameter>
     <parameter key="kernel.bundles_metadata" type="collection">
       <parameter key="FrameworkBundle" type="collection">
-        <parameter key="path">/Users/Slote/Desktop/XMR4U/vendor/symfony/framework-bundle</parameter>
+        <parameter key="path">/var/www/miner/vendor/symfony/framework-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\FrameworkBundle</parameter>
       </parameter>
       <parameter key="WebProfilerBundle" type="collection">
-        <parameter key="path">/Users/Slote/Desktop/XMR4U/vendor/symfony/web-profiler-bundle</parameter>
+        <parameter key="path">/var/www/miner/vendor/symfony/web-profiler-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\WebProfilerBundle</parameter>
       </parameter>
       <parameter key="TwigBundle" type="collection">
-        <parameter key="path">/Users/Slote/Desktop/XMR4U/vendor/symfony/twig-bundle</parameter>
+        <parameter key="path">/var/www/miner/vendor/symfony/twig-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\TwigBundle</parameter>
       </parameter>
     </parameter>
@@ -45,9 +45,9 @@
     <parameter key="asset.request_context.secure">false</parameter>
     <parameter key="profiler_listener.only_exceptions">false</parameter>
     <parameter key="profiler_listener.only_master_requests">false</parameter>
-    <parameter key="profiler.storage.dsn">file:/Users/Slote/Desktop/XMR4U/var/cache/dev/profiler</parameter>
+    <parameter key="profiler.storage.dsn">file:/var/www/miner/var/cache/dev/profiler</parameter>
     <parameter key="debug.error_handler.throw_at">-1</parameter>
-    <parameter key="debug.container.dump">/Users/Slote/Desktop/XMR4U/var/cache/dev/srcDevDebugProjectContainer.xml</parameter>
+    <parameter key="debug.container.dump">/var/www/miner/var/cache/dev/srcDevDebugProjectContainer.xml</parameter>
     <parameter key="router.request_context.host">localhost</parameter>
     <parameter key="router.request_context.scheme">http</parameter>
     <parameter key="router.request_context.base_url"></parameter>
@@ -61,7 +61,7 @@
     <parameter key="twig.form.resources" type="collection">
       <parameter>form_div_layout.html.twig</parameter>
     </parameter>
-    <parameter key="twig.default_path">/Users/Slote/Desktop/XMR4U/templates</parameter>
+    <parameter key="twig.default_path">/var/www/miner/templates</parameter>
     <parameter key="data_collector.templates" type="collection">
       <parameter key="data_collector.request" type="collection">
         <parameter>request</parameter>
@@ -225,9 +225,9 @@
     <service id="filesystem" class="Symfony\Component\Filesystem\Filesystem" public="true"/>
     <service id="file_locator" class="Symfony\Component\HttpKernel\Config\FileLocator" public="false">
       <argument type="service" id="kernel"/>
-      <argument>/Users/Slote/Desktop/XMR4U/src/Resources</argument>
+      <argument>/var/www/miner/src/Resources</argument>
       <argument type="collection">
-        <argument>/Users/Slote/Desktop/XMR4U/src</argument>
+        <argument>/var/www/miner/src</argument>
       </argument>
     </service>
     <service id="uri_signer" class="Symfony\Component\HttpKernel\UriSigner" public="false">
@@ -410,8 +410,8 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>X7KJQCtgDKcU86KTeagciG</argument>
-      <argument>/Users/Slote/Desktop/XMR4U/var/cache/dev/pools</argument>
+      <argument>-KyA+FiuwibKYwrNMIeP5x</argument>
+      <argument>/var/www/miner/var/cache/dev/pools</argument>
       <argument type="service" id="logger" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -420,7 +420,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>X7KJQCtgDKcU86KTeagciG</argument>
+      <argument>-KyA+FiuwibKYwrNMIeP5x</argument>
       <call method="setLogger">
         <argument type="service" id="logger" on-invalid="ignore"/>
       </call>
@@ -440,7 +440,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>/Users/Slote/Desktop/XMR4U/var/cache/dev/pools</argument>
+      <argument>/var/www/miner/var/cache/dev/pools</argument>
       <call method="setLogger">
         <argument type="service" id="logger" on-invalid="ignore"/>
       </call>
@@ -498,7 +498,7 @@
       </argument>
     </service>
     <service id="form.resolved_type_factory" class="Symfony\Component\Form\Extension\DataCollector\Proxy\ResolvedTypeFactoryDataCollectorProxy" public="false">
-      <argument type="service" id="1_ResolvedFormTypeFactory~BagQbIK"/>
+      <argument type="service" id="1_ResolvedFormTypeFactory~wt4Si_3"/>
       <argument type="service" id="data_collector.form"/>
     </service>
     <service id="form.registry" class="Symfony\Component\Form\FormRegistry" public="false">
@@ -638,7 +638,7 @@
       </call>
     </service>
     <service id="profiler.storage" class="Symfony\Component\HttpKernel\Profiler\FileProfilerStorage" public="false">
-      <argument>file:/Users/Slote/Desktop/XMR4U/var/cache/dev/profiler</argument>
+      <argument>file:/var/www/miner/var/cache/dev/profiler</argument>
     </service>
     <service id="profiler_listener" class="Symfony\Component\HttpKernel\EventListener\ProfilerListener" public="false">
       <tag name="kernel.event_subscriber"/>
@@ -675,7 +675,7 @@
       <tag name="data_collector" template="@WebProfiler/Collector/logger.html.twig" id="logger" priority="300"/>
       <tag name="monolog.logger" channel="profiler"/>
       <argument type="service" id="logger" on-invalid="ignore"/>
-      <argument>/Users/Slote/Desktop/XMR4U/var/cache/dev/srcDevDebugProjectContainer</argument>
+      <argument>/var/www/miner/var/cache/dev/srcDevDebugProjectContainer</argument>
     </service>
     <service id="data_collector.time" class="Symfony\Component\HttpKernel\DataCollector\TimeDataCollector" public="false">
       <tag name="data_collector" template="@WebProfiler/Collector/time.html.twig" id="time" priority="330"/>
@@ -713,7 +713,7 @@
         <argument type="service" id="cache.annotations"/>
       </call>
     </service>
-    <service id="1_ResolvedFormTypeFactory~BagQbIK" class="Symfony\Component\Form\ResolvedFormTypeFactory" public="false"/>
+    <service id="1_ResolvedFormTypeFactory~wt4Si_3" class="Symfony\Component\Form\ResolvedFormTypeFactory" public="false"/>
     <service id="form.type_extension.form.data_collector" class="Symfony\Component\Form\Extension\DataCollector\Type\DataCollectorTypeExtension" public="false">
       <tag name="form.type_extension" extended_type="Symfony\Component\Form\Extension\Core\Type\FormType" extended-type="Symfony\Component\Form\Extension\Core\Type\FormType"/>
       <argument type="service" id="data_collector.form"/>
@@ -756,7 +756,7 @@
     <service id="debug.file_link_formatter" class="Symfony\Component\HttpKernel\Debug\FileLinkFormatter" public="false">
       <argument>null</argument>
       <argument type="service" id="request_stack" on-invalid="ignore"/>
-      <argument>/Users/Slote/Desktop/XMR4U</argument>
+      <argument>/var/www/miner</argument>
       <argument>/_profiler/open?file=%%f&amp;line=%%l#line%%l</argument>
     </service>
     <service id="debug.stopwatch" class="Symfony\Component\Stopwatch\Stopwatch">
@@ -983,7 +983,7 @@
       <argument type="service" id="service_container"/>
       <argument>kernel:loadRoutes</argument>
       <argument type="collection">
-        <argument key="cache_dir">/Users/Slote/Desktop/XMR4U/var/cache/dev</argument>
+        <argument key="cache_dir">/var/www/miner/var/cache/dev</argument>
         <argument key="debug">true</argument>
         <argument key="generator_class">Symfony\Component\Routing\Generator\UrlGenerator</argument>
         <argument key="generator_base_class">Symfony\Component\Routing\Generator\UrlGenerator</argument>
@@ -1024,7 +1024,7 @@
       <argument type="service" id="request_stack"/>
       <argument type="service" id="router.request_context" on-invalid="ignore"/>
       <argument type="service" id="logger" on-invalid="ignore"/>
-      <argument>/Users/Slote/Desktop/XMR4U</argument>
+      <argument>/var/www/miner</argument>
       <argument>true</argument>
     </service>
     <service id="Symfony\Bundle\FrameworkBundle\Controller\RedirectController" class="Symfony\Bundle\FrameworkBundle\Controller\RedirectController" public="true">
@@ -1041,7 +1041,7 @@
       <argument>false</argument>
       <argument type="service" id="cache.property_access" on-invalid="ignore"/>
     </service>
-    <service id="2_HtmlDumper~SvJnGe6" class="Symfony\Component\VarDumper\Dumper\HtmlDumper" public="false">
+    <service id="2_HtmlDumper~wHl0r3l" class="Symfony\Component\VarDumper\Dumper\HtmlDumper" public="false">
       <argument>null</argument>
       <argument>UTF-8</argument>
       <argument>1</argument>
@@ -1052,14 +1052,14 @@
         </argument>
       </call>
     </service>
-    <service id="1_NonceGenerator~SvJnGe6" class="Symfony\Bundle\WebProfilerBundle\Csp\NonceGenerator" public="false"/>
+    <service id="1_NonceGenerator~wHl0r3l" class="Symfony\Bundle\WebProfilerBundle\Csp\NonceGenerator" public="false"/>
     <service id="web_profiler.controller.profiler" class="Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController" public="true">
       <argument type="service" id="router.default" on-invalid="null"/>
       <argument type="service" id="profiler" on-invalid="null"/>
       <argument type="service" id="twig"/>
       <argument>%data_collector.templates%</argument>
       <argument type="service" id="web_profiler.csp.handler"/>
-      <argument>/Users/Slote/Desktop/XMR4U</argument>
+      <argument>/var/www/miner</argument>
     </service>
     <service id="web_profiler.controller.router" class="Symfony\Bundle\WebProfilerBundle\Controller\RouterController" public="true">
       <argument type="service" id="profiler" on-invalid="null"/>
@@ -1072,11 +1072,11 @@
       <argument>true</argument>
     </service>
     <service id="web_profiler.csp.handler" class="Symfony\Bundle\WebProfilerBundle\Csp\ContentSecurityPolicyHandler" public="false">
-      <argument type="service" id="1_NonceGenerator~SvJnGe6"/>
+      <argument type="service" id="1_NonceGenerator~wHl0r3l"/>
     </service>
     <service id="twig.extension.webprofiler" class="Symfony\Bundle\WebProfilerBundle\Twig\WebProfilerExtension" public="false">
       <tag name="twig.extension"/>
-      <argument type="service" id="2_HtmlDumper~SvJnGe6"/>
+      <argument type="service" id="2_HtmlDumper~wHl0r3l"/>
     </service>
     <service id="web_profiler.debug_toolbar" class="Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener" public="false">
       <tag name="kernel.event_subscriber"/>
@@ -1092,7 +1092,7 @@
       <argument type="service" id="twig.loader.native_filesystem"/>
       <argument type="collection">
         <argument key="paths" type="collection">
-          <argument key="/Users/Slote/Desktop/XMR4U/templates">null</argument>
+          <argument key="/var/www/miner/templates">null</argument>
         </argument>
         <argument key="debug">true</argument>
         <argument key="strict_variables">true</argument>
@@ -1101,9 +1101,9 @@
           <argument>form_div_layout.html.twig</argument>
         </argument>
         <argument key="autoescape">name</argument>
-        <argument key="cache">/Users/Slote/Desktop/XMR4U/var/cache/dev/twig</argument>
+        <argument key="cache">/var/www/miner/var/cache/dev/twig</argument>
         <argument key="charset">UTF-8</argument>
-        <argument key="default_path">/Users/Slote/Desktop/XMR4U/templates</argument>
+        <argument key="default_path">/var/www/miner/templates</argument>
         <argument key="date" type="collection">
           <argument key="format">F j, Y H:i</argument>
           <argument key="interval_format">%d days</argument>
@@ -1178,16 +1178,16 @@
       <argument type="service" id="service_locator.WXS0TxV.twig.cache_warmer"/>
       <argument>null</argument>
       <argument type="collection">
-        <argument key="/Users/Slote/Desktop/XMR4U/templates">null</argument>
-        <argument key="/Users/Slote/Desktop/XMR4U/vendor/symfony/twig-bridge/Resources/views/Form">null</argument>
+        <argument key="/var/www/miner/templates">null</argument>
+        <argument key="/var/www/miner/vendor/symfony/twig-bridge/Resources/views/Form">null</argument>
       </argument>
     </service>
     <service id="twig.template_iterator" class="Symfony\Bundle\TwigBundle\TemplateIterator" public="false">
       <argument type="service" id="kernel"/>
-      <argument>/Users/Slote/Desktop/XMR4U/src</argument>
+      <argument>/var/www/miner/src</argument>
       <argument type="collection">
-        <argument key="/Users/Slote/Desktop/XMR4U/templates">null</argument>
-        <argument key="/Users/Slote/Desktop/XMR4U/vendor/symfony/twig-bridge/Resources/views/Form">null</argument>
+        <argument key="/var/www/miner/templates">null</argument>
+        <argument key="/var/www/miner/vendor/symfony/twig-bridge/Resources/views/Form">null</argument>
       </argument>
     </service>
     <service id="twig.template_cache_warmer" class="Symfony\Bundle\TwigBundle\CacheWarmer\TemplateCacheWarmer" public="false">
@@ -1200,39 +1200,39 @@
     <service id="twig.loader.native_filesystem" class="Twig\Loader\FilesystemLoader" public="false">
       <tag name="twig.loader"/>
       <argument type="collection"/>
-      <argument>/Users/Slote/Desktop/XMR4U</argument>
+      <argument>/var/www/miner</argument>
       <call method="addPath">
-        <argument>/Users/Slote/Desktop/XMR4U/templates</argument>
+        <argument>/var/www/miner/templates</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/Slote/Desktop/XMR4U/vendor/symfony/framework-bundle/Resources/views</argument>
+        <argument>/var/www/miner/vendor/symfony/framework-bundle/Resources/views</argument>
         <argument>Framework</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/Slote/Desktop/XMR4U/vendor/symfony/framework-bundle/Resources/views</argument>
+        <argument>/var/www/miner/vendor/symfony/framework-bundle/Resources/views</argument>
         <argument>!Framework</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/Slote/Desktop/XMR4U/vendor/symfony/web-profiler-bundle/Resources/views</argument>
+        <argument>/var/www/miner/vendor/symfony/web-profiler-bundle/Resources/views</argument>
         <argument>WebProfiler</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/Slote/Desktop/XMR4U/vendor/symfony/web-profiler-bundle/Resources/views</argument>
+        <argument>/var/www/miner/vendor/symfony/web-profiler-bundle/Resources/views</argument>
         <argument>!WebProfiler</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/Slote/Desktop/XMR4U/vendor/symfony/twig-bundle/Resources/views</argument>
+        <argument>/var/www/miner/vendor/symfony/twig-bundle/Resources/views</argument>
         <argument>Twig</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/Slote/Desktop/XMR4U/vendor/symfony/twig-bundle/Resources/views</argument>
+        <argument>/var/www/miner/vendor/symfony/twig-bundle/Resources/views</argument>
         <argument>!Twig</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/Slote/Desktop/XMR4U/templates</argument>
+        <argument>/var/www/miner/templates</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/Slote/Desktop/XMR4U/vendor/symfony/twig-bridge/Resources/views/Form</argument>
+        <argument>/var/www/miner/vendor/symfony/twig-bridge/Resources/views/Form</argument>
       </call>
     </service>
     <service id="twig.loader.chain" class="Twig\Loader\ChainLoader" public="false"/>
@@ -1258,7 +1258,7 @@
     <service id="twig.extension.code" class="Symfony\Bridge\Twig\Extension\CodeExtension" public="false">
       <tag name="twig.extension"/>
       <argument type="service" id="debug.file_link_formatter" on-invalid="ignore"/>
-      <argument>/Users/Slote/Desktop/XMR4U/src</argument>
+      <argument>/var/www/miner/src</argument>
       <argument>UTF-8</argument>
     </service>
     <service id="twig.extension.routing" class="Symfony\Bridge\Twig\Extension\RoutingExtension" public="false">
@@ -1332,7 +1332,7 @@
     <service id="twig.command.debug" class="Symfony\Bridge\Twig\Command\DebugCommand" public="false">
       <tag name="console.command" command="debug:twig"/>
       <argument type="service" id="twig"/>
-      <argument>/Users/Slote/Desktop/XMR4U</argument>
+      <argument>/var/www/miner</argument>
       <call method="setName">
         <argument>debug:twig</argument>
       </call>
@@ -1463,42 +1463,42 @@
       <factory service="service_locator.k8D6bKn" method="withContext"/>
     </service>
     <service id="cache.app.recorder_inner" class="Symfony\Component\Cache\Adapter\FilesystemAdapter" public="false">
-      <argument>90jsvhSudr</argument>
+      <argument>ZT792dNaVW</argument>
       <argument>0</argument>
-      <argument>/Users/Slote/Desktop/XMR4U/var/cache/dev/pools</argument>
+      <argument>/var/www/miner/var/cache/dev/pools</argument>
       <call method="setLogger">
         <argument type="service" id="logger" on-invalid="ignore"/>
       </call>
     </service>
     <service id="cache.system.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false">
-      <argument>A2wFfitNHF</argument>
+      <argument>nhbAJmffh0</argument>
       <argument>0</argument>
-      <argument>X7KJQCtgDKcU86KTeagciG</argument>
-      <argument>/Users/Slote/Desktop/XMR4U/var/cache/dev/pools</argument>
+      <argument>-KyA+FiuwibKYwrNMIeP5x</argument>
+      <argument>/var/www/miner/var/cache/dev/pools</argument>
       <argument type="service" id="logger" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.validator.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false">
-      <argument>iolD5ghiL2</argument>
+      <argument>MlciNrH9ME</argument>
       <argument>0</argument>
-      <argument>X7KJQCtgDKcU86KTeagciG</argument>
-      <argument>/Users/Slote/Desktop/XMR4U/var/cache/dev/pools</argument>
+      <argument>-KyA+FiuwibKYwrNMIeP5x</argument>
+      <argument>/var/www/miner/var/cache/dev/pools</argument>
       <argument type="service" id="logger" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.serializer.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false">
-      <argument>810WJC2Pk8</argument>
+      <argument>etD3w9IAeR</argument>
       <argument>0</argument>
-      <argument>X7KJQCtgDKcU86KTeagciG</argument>
-      <argument>/Users/Slote/Desktop/XMR4U/var/cache/dev/pools</argument>
+      <argument>-KyA+FiuwibKYwrNMIeP5x</argument>
+      <argument>/var/www/miner/var/cache/dev/pools</argument>
       <argument type="service" id="logger" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.annotations.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface" public="false">
-      <argument>F1oeE3JDDq</argument>
+      <argument>bdo13txBTB</argument>
       <argument>0</argument>
-      <argument>X7KJQCtgDKcU86KTeagciG</argument>
-      <argument>/Users/Slote/Desktop/XMR4U/var/cache/dev/pools</argument>
+      <argument>-KyA+FiuwibKYwrNMIeP5x</argument>
+      <argument>/var/www/miner/var/cache/dev/pools</argument>
       <argument type="service" id="logger" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
