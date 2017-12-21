@@ -15,11 +15,11 @@ class __TwigTemplate_cb56b608fc738009bfe41775c46cbd377a33041de94be94e13260f4b0d5
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_8ef853181cc6af2babf71d78cd637a642d64f1c433630dfa17c39fc82a95f7a8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_8ef853181cc6af2babf71d78cd637a642d64f1c433630dfa17c39fc82a95f7a8->enter($__internal_8ef853181cc6af2babf71d78cd637a642d64f1c433630dfa17c39fc82a95f7a8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_chart.html.twig"));
+        $__internal_90df9e77b0b0d79a57d2b8f29cf4620ca865e417179c96b9376800ac90f4b9f1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_90df9e77b0b0d79a57d2b8f29cf4620ca865e417179c96b9376800ac90f4b9f1->enter($__internal_90df9e77b0b0d79a57d2b8f29cf4620ca865e417179c96b9376800ac90f4b9f1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_chart.html.twig"));
 
-        $__internal_fdc2e3b09402dd5d3360bb0fedcb90eedc867b48608c474d860bddc34caa70f7 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_fdc2e3b09402dd5d3360bb0fedcb90eedc867b48608c474d860bddc34caa70f7->enter($__internal_fdc2e3b09402dd5d3360bb0fedcb90eedc867b48608c474d860bddc34caa70f7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_chart.html.twig"));
+        $__internal_465fd2057f99d766cffe54f331e88551d3fe7e5bb2031a1d64569a87329144c2 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_465fd2057f99d766cffe54f331e88551d3fe7e5bb2031a1d64569a87329144c2->enter($__internal_465fd2057f99d766cffe54f331e88551d3fe7e5bb2031a1d64569a87329144c2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_chart.html.twig"));
 
         // line 1
         echo "<!-- TradingView Widget BEGIN -->
@@ -45,10 +45,10 @@ new TradingView.MediumWidget({
 </script>
 <!-- TradingView Widget END -->";
         
-        $__internal_8ef853181cc6af2babf71d78cd637a642d64f1c433630dfa17c39fc82a95f7a8->leave($__internal_8ef853181cc6af2babf71d78cd637a642d64f1c433630dfa17c39fc82a95f7a8_prof);
+        $__internal_90df9e77b0b0d79a57d2b8f29cf4620ca865e417179c96b9376800ac90f4b9f1->leave($__internal_90df9e77b0b0d79a57d2b8f29cf4620ca865e417179c96b9376800ac90f4b9f1_prof);
 
         
-        $__internal_fdc2e3b09402dd5d3360bb0fedcb90eedc867b48608c474d860bddc34caa70f7->leave($__internal_fdc2e3b09402dd5d3360bb0fedcb90eedc867b48608c474d860bddc34caa70f7_prof);
+        $__internal_465fd2057f99d766cffe54f331e88551d3fe7e5bb2031a1d64569a87329144c2->leave($__internal_465fd2057f99d766cffe54f331e88551d3fe7e5bb2031a1d64569a87329144c2_prof);
 
     }
 

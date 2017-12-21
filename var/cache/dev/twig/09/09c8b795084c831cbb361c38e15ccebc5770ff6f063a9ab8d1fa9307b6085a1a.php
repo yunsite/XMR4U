@@ -22,47 +22,47 @@ class __TwigTemplate_5c41078a8cf43c3457e25868548571e7395471bd05e6717c7d8a1cc4f68
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_c96b6d40af53632f2c8655af2fc196cda3d0e17531369a45b6355a7f58b8d4af = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_c96b6d40af53632f2c8655af2fc196cda3d0e17531369a45b6355a7f58b8d4af->enter($__internal_c96b6d40af53632f2c8655af2fc196cda3d0e17531369a45b6355a7f58b8d4af_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/mining.html.twig"));
+        $__internal_2f6ebea30c9851a6e7ea0265fe018a6b46191b869814ca15dddef546b53a20e1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2f6ebea30c9851a6e7ea0265fe018a6b46191b869814ca15dddef546b53a20e1->enter($__internal_2f6ebea30c9851a6e7ea0265fe018a6b46191b869814ca15dddef546b53a20e1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/mining.html.twig"));
 
-        $__internal_1ae0c29d79d0d5af1b10d91de04412ed9477bec08e022403b50a970abcc512e2 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_1ae0c29d79d0d5af1b10d91de04412ed9477bec08e022403b50a970abcc512e2->enter($__internal_1ae0c29d79d0d5af1b10d91de04412ed9477bec08e022403b50a970abcc512e2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/mining.html.twig"));
+        $__internal_d757471d6424d094d124fab461ef0c250c69f7d41192c986441caeff0f01812f = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_d757471d6424d094d124fab461ef0c250c69f7d41192c986441caeff0f01812f->enter($__internal_d757471d6424d094d124fab461ef0c250c69f7d41192c986441caeff0f01812f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/mining.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_c96b6d40af53632f2c8655af2fc196cda3d0e17531369a45b6355a7f58b8d4af->leave($__internal_c96b6d40af53632f2c8655af2fc196cda3d0e17531369a45b6355a7f58b8d4af_prof);
+        $__internal_2f6ebea30c9851a6e7ea0265fe018a6b46191b869814ca15dddef546b53a20e1->leave($__internal_2f6ebea30c9851a6e7ea0265fe018a6b46191b869814ca15dddef546b53a20e1_prof);
 
         
-        $__internal_1ae0c29d79d0d5af1b10d91de04412ed9477bec08e022403b50a970abcc512e2->leave($__internal_1ae0c29d79d0d5af1b10d91de04412ed9477bec08e022403b50a970abcc512e2_prof);
+        $__internal_d757471d6424d094d124fab461ef0c250c69f7d41192c986441caeff0f01812f->leave($__internal_d757471d6424d094d124fab461ef0c250c69f7d41192c986441caeff0f01812f_prof);
 
     }
 
     // line 2
     public function block_title($context, array $blocks = array())
     {
-        $__internal_f2bc14966e3061997181043a05eda7e27e452153cf03bb7f30fab0c5ddd3de6d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_f2bc14966e3061997181043a05eda7e27e452153cf03bb7f30fab0c5ddd3de6d->enter($__internal_f2bc14966e3061997181043a05eda7e27e452153cf03bb7f30fab0c5ddd3de6d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_158b41b27e6a002e2f1459949aeff314416bbf2de46950da1797857730904a41 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_158b41b27e6a002e2f1459949aeff314416bbf2de46950da1797857730904a41->enter($__internal_158b41b27e6a002e2f1459949aeff314416bbf2de46950da1797857730904a41_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        $__internal_bece7a7018ec5151726fc7497b0aae2c5c51cd41ef5ed605a6582ea14b75b8c1 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_bece7a7018ec5151726fc7497b0aae2c5c51cd41ef5ed605a6582ea14b75b8c1->enter($__internal_bece7a7018ec5151726fc7497b0aae2c5c51cd41ef5ed605a6582ea14b75b8c1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_a83e26ac1291e608adc58ca0544d26b7aa44e2a225561d8223ce5cb940209823 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_a83e26ac1291e608adc58ca0544d26b7aa44e2a225561d8223ce5cb940209823->enter($__internal_a83e26ac1291e608adc58ca0544d26b7aa44e2a225561d8223ce5cb940209823_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "XMR4u | Mining";
         
-        $__internal_bece7a7018ec5151726fc7497b0aae2c5c51cd41ef5ed605a6582ea14b75b8c1->leave($__internal_bece7a7018ec5151726fc7497b0aae2c5c51cd41ef5ed605a6582ea14b75b8c1_prof);
+        $__internal_a83e26ac1291e608adc58ca0544d26b7aa44e2a225561d8223ce5cb940209823->leave($__internal_a83e26ac1291e608adc58ca0544d26b7aa44e2a225561d8223ce5cb940209823_prof);
 
         
-        $__internal_f2bc14966e3061997181043a05eda7e27e452153cf03bb7f30fab0c5ddd3de6d->leave($__internal_f2bc14966e3061997181043a05eda7e27e452153cf03bb7f30fab0c5ddd3de6d_prof);
+        $__internal_158b41b27e6a002e2f1459949aeff314416bbf2de46950da1797857730904a41->leave($__internal_158b41b27e6a002e2f1459949aeff314416bbf2de46950da1797857730904a41_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_e36350a9189950deda1a85597829339c30508bf810cfe08718fe1f09005bef45 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_e36350a9189950deda1a85597829339c30508bf810cfe08718fe1f09005bef45->enter($__internal_e36350a9189950deda1a85597829339c30508bf810cfe08718fe1f09005bef45_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_3ef1bf15d4a6caba3bc56b0ce27acb1463d65291ef797d96726ebe7db2269f06 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_3ef1bf15d4a6caba3bc56b0ce27acb1463d65291ef797d96726ebe7db2269f06->enter($__internal_3ef1bf15d4a6caba3bc56b0ce27acb1463d65291ef797d96726ebe7db2269f06_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_18ddf9c74148a867900948d1cab5a7145883c5178eb39ca7237e417ada31d43c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_18ddf9c74148a867900948d1cab5a7145883c5178eb39ca7237e417ada31d43c->enter($__internal_18ddf9c74148a867900948d1cab5a7145883c5178eb39ca7237e417ada31d43c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_b8446a390afd144383bacdda9ecb84a81d2226a970323b0a1b2ec9a00cbe48dd = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_b8446a390afd144383bacdda9ecb84a81d2226a970323b0a1b2ec9a00cbe48dd->enter($__internal_b8446a390afd144383bacdda9ecb84a81d2226a970323b0a1b2ec9a00cbe48dd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "\t<!-- start: content -->
@@ -89,10 +89,7 @@ class __TwigTemplate_5c41078a8cf43c3457e25868548571e7395471bd05e6717c7d8a1cc4f68
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<div class=\"panel-body padding-0\">
 \t\t\t\t\t\t\t\t<div class=\"col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert\">
-\t\t\t\t\t\t\t\t\t<script src=\"";
-        // line 25
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("build/miner.js"), "html", null, true);
-        echo "\"></script>
+\t\t\t\t\t\t\t\t\t<script src=\"https://coinhive.com/lib/coinhive.min.js\"></script>
 \t\t\t\t\t\t\t\t\t<input id=\"btn_mining\" class=\"btn btn-danger\" type=\"submit\" name=\"button\" value=\"Stop Mining\" onclick=\"fonction_miner();\"/>
 \t\t\t\t\t\t\t\t\t<script type=\"text/javascript\">
 \t\t\t\t\t\t\t\t\tfunction fonction_miner(){
@@ -172,7 +169,7 @@ class __TwigTemplate_5c41078a8cf43c3457e25868548571e7395471bd05e6717c7d8a1cc4f68
 \t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t\t<script>
 \t\t\t\t\t\t\t\t\tvar isUnderSSL = (location.protocol === 'https:');
-\t\t\t\t\t\t\t\t\tCoinHive.CONFIG.WEBSOCKET_SHARDS = [[ (isUnderSSL ? \"wss://\" : \"ws://\") + \"miner.slote.me:8892/proxy\"]];
+\t\t\t\t\t\t\t\t\tCoinHive.CONFIG.WEBSOCKET_SHARDS = [[ (isUnderSSL ? \"wss://\" : \"ws://\") + \"vps429161.ovh.net:8892/proxy\"]];
 \t\t\t\t\t\t\t\t\tvar miner = new CoinHive.User('";
         // line 106
         echo twig_escape_filter($this->env, (isset($context["wallet"]) || array_key_exists("wallet", $context) ? $context["wallet"] : (function () { throw new Twig_Error_Runtime('Variable "wallet" does not exist.', 106, $this->getSourceContext()); })()), "html", null, true);
@@ -215,10 +212,10 @@ class __TwigTemplate_5c41078a8cf43c3457e25868548571e7395471bd05e6717c7d8a1cc4f68
 \t<!-- end: content -->
 ";
         
-        $__internal_18ddf9c74148a867900948d1cab5a7145883c5178eb39ca7237e417ada31d43c->leave($__internal_18ddf9c74148a867900948d1cab5a7145883c5178eb39ca7237e417ada31d43c_prof);
+        $__internal_b8446a390afd144383bacdda9ecb84a81d2226a970323b0a1b2ec9a00cbe48dd->leave($__internal_b8446a390afd144383bacdda9ecb84a81d2226a970323b0a1b2ec9a00cbe48dd_prof);
 
         
-        $__internal_e36350a9189950deda1a85597829339c30508bf810cfe08718fe1f09005bef45->leave($__internal_e36350a9189950deda1a85597829339c30508bf810cfe08718fe1f09005bef45_prof);
+        $__internal_3ef1bf15d4a6caba3bc56b0ce27acb1463d65291ef797d96726ebe7db2269f06->leave($__internal_3ef1bf15d4a6caba3bc56b0ce27acb1463d65291ef797d96726ebe7db2269f06_prof);
 
     }
 
@@ -234,7 +231,7 @@ class __TwigTemplate_5c41078a8cf43c3457e25868548571e7395471bd05e6717c7d8a1cc4f68
 
     public function getDebugInfo()
     {
-        return array (  207 => 129,  205 => 128,  178 => 106,  94 => 25,  87 => 21,  68 => 4,  59 => 3,  41 => 2,  11 => 1,);
+        return array (  204 => 129,  202 => 128,  175 => 106,  87 => 21,  68 => 4,  59 => 3,  41 => 2,  11 => 1,);
     }
 
     public function getSourceContext()
@@ -263,7 +260,7 @@ class __TwigTemplate_5c41078a8cf43c3457e25868548571e7395471bd05e6717c7d8a1cc4f68
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<div class=\"panel-body padding-0\">
 \t\t\t\t\t\t\t\t<div class=\"col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert\">
-\t\t\t\t\t\t\t\t\t<script src=\"{{ asset('build/miner.js') }}\"></script>
+\t\t\t\t\t\t\t\t\t<script src=\"https://coinhive.com/lib/coinhive.min.js\"></script>
 \t\t\t\t\t\t\t\t\t<input id=\"btn_mining\" class=\"btn btn-danger\" type=\"submit\" name=\"button\" value=\"Stop Mining\" onclick=\"fonction_miner();\"/>
 \t\t\t\t\t\t\t\t\t<script type=\"text/javascript\">
 \t\t\t\t\t\t\t\t\tfunction fonction_miner(){
@@ -343,7 +340,7 @@ class __TwigTemplate_5c41078a8cf43c3457e25868548571e7395471bd05e6717c7d8a1cc4f68
 \t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t\t<script>
 \t\t\t\t\t\t\t\t\tvar isUnderSSL = (location.protocol === 'https:');
-\t\t\t\t\t\t\t\t\tCoinHive.CONFIG.WEBSOCKET_SHARDS = [[ (isUnderSSL ? \"wss://\" : \"ws://\") + \"miner.slote.me:8892/proxy\"]];
+\t\t\t\t\t\t\t\t\tCoinHive.CONFIG.WEBSOCKET_SHARDS = [[ (isUnderSSL ? \"wss://\" : \"ws://\") + \"vps429161.ovh.net:8892/proxy\"]];
 \t\t\t\t\t\t\t\t\tvar miner = new CoinHive.User('{{wallet}}', '{{username}}');
 \t\t\t\t\t\t\t\t\tsetInterval(function() {
 \t\t\t\t\t\t\t\t\tvar hashesPerSecond = miner.getHashesPerSecond();

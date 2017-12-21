@@ -86,6 +86,7 @@ class Flex implements PluginInterface, EventSubscriberInterface
                 $app->add(new Command\RequireCommand($resolver));
                 $app->add(new Command\UpdateCommand($resolver));
                 $app->add(new Command\RemoveCommand($resolver));
+                $app->add(new Command\UnpackCommand($resolver));
             } elseif ($trace['object'] instanceof Installer) {
                 --$search;
                 $trace['object']->setSuggestedPackagesReporter(new SuggestedPackagesReporter(new NullIO()));
@@ -108,6 +109,8 @@ class Flex implements PluginInterface, EventSubscriberInterface
     {
         $json = new JsonFile(Factory::getComposerFile());
         $manipulator = new JsonManipulator(file_get_contents($json->getPath()));
+        // new projects are most of the time proprietary
+        $manipulator->addProperty('license', 'proprietary');
         // 'name' and 'description' are only required for public packages
         $manipulator->removeProperty('name');
         $manipulator->removeProperty('description');

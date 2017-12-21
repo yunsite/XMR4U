@@ -15,20 +15,20 @@ class __TwigTemplate_5e80a67f252834d51fb87410729d2c0006efee1394f04b61eca8b72bf2e
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_fcf7736995c1b3132e20921084bc196a70f1f09a87566c7a935b93d79d4816d9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_fcf7736995c1b3132e20921084bc196a70f1f09a87566c7a935b93d79d4816d9->enter($__internal_fcf7736995c1b3132e20921084bc196a70f1f09a87566c7a935b93d79d4816d9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/color_widget.html.php"));
+        $__internal_9184b769a1716e2ad79d599418fcc0f1213ae0fbe4121e6c28353840ac0fa11d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_9184b769a1716e2ad79d599418fcc0f1213ae0fbe4121e6c28353840ac0fa11d->enter($__internal_9184b769a1716e2ad79d599418fcc0f1213ae0fbe4121e6c28353840ac0fa11d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/color_widget.html.php"));
 
-        $__internal_98943125c01763bc875c1cb026bce18a7ec34f6624579372b76d13469270ce94 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_98943125c01763bc875c1cb026bce18a7ec34f6624579372b76d13469270ce94->enter($__internal_98943125c01763bc875c1cb026bce18a7ec34f6624579372b76d13469270ce94_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/color_widget.html.php"));
+        $__internal_f9c1f4a37c24578a2ea1a96ef8702453112278828ba28a1685ba5aff6bb8551f = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_f9c1f4a37c24578a2ea1a96ef8702453112278828ba28a1685ba5aff6bb8551f->enter($__internal_f9c1f4a37c24578a2ea1a96ef8702453112278828ba28a1685ba5aff6bb8551f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/color_widget.html.php"));
 
         // line 1
         echo "<?php echo \$view['form']->block(\$form, 'form_widget_simple', array('type' => isset(\$type) ? \$type : 'color'));
 ";
         
-        $__internal_fcf7736995c1b3132e20921084bc196a70f1f09a87566c7a935b93d79d4816d9->leave($__internal_fcf7736995c1b3132e20921084bc196a70f1f09a87566c7a935b93d79d4816d9_prof);
+        $__internal_9184b769a1716e2ad79d599418fcc0f1213ae0fbe4121e6c28353840ac0fa11d->leave($__internal_9184b769a1716e2ad79d599418fcc0f1213ae0fbe4121e6c28353840ac0fa11d_prof);
 
         
-        $__internal_98943125c01763bc875c1cb026bce18a7ec34f6624579372b76d13469270ce94->leave($__internal_98943125c01763bc875c1cb026bce18a7ec34f6624579372b76d13469270ce94_prof);
+        $__internal_f9c1f4a37c24578a2ea1a96ef8702453112278828ba28a1685ba5aff6bb8551f->leave($__internal_f9c1f4a37c24578a2ea1a96ef8702453112278828ba28a1685ba5aff6bb8551f_prof);
 
     }
 
@@ -45,6 +45,6 @@ class __TwigTemplate_5e80a67f252834d51fb87410729d2c0006efee1394f04b61eca8b72bf2e
     public function getSourceContext()
     {
         return new Twig_Source("<?php echo \$view['form']->block(\$form, 'form_widget_simple', array('type' => isset(\$type) ? \$type : 'color'));
-", "@Framework/Form/color_widget.html.php", "/var/www/miner/vendor/symfony/framework-bundle/Resources/views/Form/color_widget.html.php");
+", "@Framework/Form/color_widget.html.php", "/Users/Slote/Desktop/XMR4U/vendor/symfony/framework-bundle/Resources/views/Form/color_widget.html.php");
     }
 }

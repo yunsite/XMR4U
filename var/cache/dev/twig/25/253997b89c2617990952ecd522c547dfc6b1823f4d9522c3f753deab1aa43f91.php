@@ -15,11 +15,11 @@ class __TwigTemplate_640602de23ba69e916174986c354c59e6d434facd5c0014a73bf6708ff8
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_514ec3726d802026b469b5795d90219bca4f771d21459e7201c8188bcfe3e409 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_514ec3726d802026b469b5795d90219bca4f771d21459e7201c8188bcfe3e409->enter($__internal_514ec3726d802026b469b5795d90219bca4f771d21459e7201c8188bcfe3e409_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/form_start.html.php"));
+        $__internal_e0e2b82f95f6307adfd17174dcd1dab1f89c763850668fcb2a35c37b0b349375 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e0e2b82f95f6307adfd17174dcd1dab1f89c763850668fcb2a35c37b0b349375->enter($__internal_e0e2b82f95f6307adfd17174dcd1dab1f89c763850668fcb2a35c37b0b349375_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/form_start.html.php"));
 
-        $__internal_535b6e88ec3f3e20eb6b4b86424e0757b812c7d340e764c51722892f65f47397 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_535b6e88ec3f3e20eb6b4b86424e0757b812c7d340e764c51722892f65f47397->enter($__internal_535b6e88ec3f3e20eb6b4b86424e0757b812c7d340e764c51722892f65f47397_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/form_start.html.php"));
+        $__internal_1805f8feb56bd8cf26e4d78b23e9c71144d6c39fbdb25c0db803712fd4056853 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_1805f8feb56bd8cf26e4d78b23e9c71144d6c39fbdb25c0db803712fd4056853->enter($__internal_1805f8feb56bd8cf26e4d78b23e9c71144d6c39fbdb25c0db803712fd4056853_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/form_start.html.php"));
 
         // line 1
         echo "<?php \$method = strtoupper(\$method) ?>
@@ -30,10 +30,10 @@ class __TwigTemplate_640602de23ba69e916174986c354c59e6d434facd5c0014a73bf6708ff8
 <?php endif ?>
 ";
         
-        $__internal_514ec3726d802026b469b5795d90219bca4f771d21459e7201c8188bcfe3e409->leave($__internal_514ec3726d802026b469b5795d90219bca4f771d21459e7201c8188bcfe3e409_prof);
+        $__internal_e0e2b82f95f6307adfd17174dcd1dab1f89c763850668fcb2a35c37b0b349375->leave($__internal_e0e2b82f95f6307adfd17174dcd1dab1f89c763850668fcb2a35c37b0b349375_prof);
 
         
-        $__internal_535b6e88ec3f3e20eb6b4b86424e0757b812c7d340e764c51722892f65f47397->leave($__internal_535b6e88ec3f3e20eb6b4b86424e0757b812c7d340e764c51722892f65f47397_prof);
+        $__internal_1805f8feb56bd8cf26e4d78b23e9c71144d6c39fbdb25c0db803712fd4056853->leave($__internal_1805f8feb56bd8cf26e4d78b23e9c71144d6c39fbdb25c0db803712fd4056853_prof);
 
     }
 
@@ -55,6 +55,6 @@ class __TwigTemplate_640602de23ba69e916174986c354c59e6d434facd5c0014a73bf6708ff8
 <?php if (\$form_method !== \$method): ?>
     <input type=\"hidden\" name=\"_method\" value=\"<?php echo \$method ?>\" />
 <?php endif ?>
-", "@Framework/Form/form_start.html.php", "/var/www/miner/vendor/symfony/framework-bundle/Resources/views/Form/form_start.html.php");
+", "@Framework/Form/form_start.html.php", "/Users/Slote/Desktop/XMR4U/vendor/symfony/framework-bundle/Resources/views/Form/form_start.html.php");
     }
 }

@@ -15,20 +15,20 @@ class __TwigTemplate_ea4cfd8b72b985964cdc2c8be66944d8dd86dc4a7f6707cf854b97da8ea
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_1f7ed9deba716c73b55c006fb0eff404a65467febcf486ec3177822b5a452b50 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_1f7ed9deba716c73b55c006fb0eff404a65467febcf486ec3177822b5a452b50->enter($__internal_1f7ed9deba716c73b55c006fb0eff404a65467febcf486ec3177822b5a452b50_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/number_widget.html.php"));
+        $__internal_78b64311b3a671494184b2f745c8306b86fccc17eaa598707c1621e4caf15bd0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_78b64311b3a671494184b2f745c8306b86fccc17eaa598707c1621e4caf15bd0->enter($__internal_78b64311b3a671494184b2f745c8306b86fccc17eaa598707c1621e4caf15bd0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/number_widget.html.php"));
 
-        $__internal_9325e2039abe19623c342758fbc0a8ff315cd2ccbe251ef60a2261cda60feb21 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_9325e2039abe19623c342758fbc0a8ff315cd2ccbe251ef60a2261cda60feb21->enter($__internal_9325e2039abe19623c342758fbc0a8ff315cd2ccbe251ef60a2261cda60feb21_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/number_widget.html.php"));
+        $__internal_02c6e3e6252aba90b67b40c6924f1ba055e83b10c9f8b4fa834f78ccac4120eb = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_02c6e3e6252aba90b67b40c6924f1ba055e83b10c9f8b4fa834f78ccac4120eb->enter($__internal_02c6e3e6252aba90b67b40c6924f1ba055e83b10c9f8b4fa834f78ccac4120eb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Framework/Form/number_widget.html.php"));
 
         // line 1
         echo "<?php echo \$view['form']->block(\$form, 'form_widget_simple', array('type' => isset(\$type) ? \$type : 'text')) ?>
 ";
         
-        $__internal_1f7ed9deba716c73b55c006fb0eff404a65467febcf486ec3177822b5a452b50->leave($__internal_1f7ed9deba716c73b55c006fb0eff404a65467febcf486ec3177822b5a452b50_prof);
+        $__internal_78b64311b3a671494184b2f745c8306b86fccc17eaa598707c1621e4caf15bd0->leave($__internal_78b64311b3a671494184b2f745c8306b86fccc17eaa598707c1621e4caf15bd0_prof);
 
         
-        $__internal_9325e2039abe19623c342758fbc0a8ff315cd2ccbe251ef60a2261cda60feb21->leave($__internal_9325e2039abe19623c342758fbc0a8ff315cd2ccbe251ef60a2261cda60feb21_prof);
+        $__internal_02c6e3e6252aba90b67b40c6924f1ba055e83b10c9f8b4fa834f78ccac4120eb->leave($__internal_02c6e3e6252aba90b67b40c6924f1ba055e83b10c9f8b4fa834f78ccac4120eb_prof);
 
     }
 
@@ -45,6 +45,6 @@ class __TwigTemplate_ea4cfd8b72b985964cdc2c8be66944d8dd86dc4a7f6707cf854b97da8ea
     public function getSourceContext()
     {
         return new Twig_Source("<?php echo \$view['form']->block(\$form, 'form_widget_simple', array('type' => isset(\$type) ? \$type : 'text')) ?>
-", "@Framework/Form/number_widget.html.php", "/var/www/miner/vendor/symfony/framework-bundle/Resources/views/Form/number_widget.html.php");
+", "@Framework/Form/number_widget.html.php", "/Users/Slote/Desktop/XMR4U/vendor/symfony/framework-bundle/Resources/views/Form/number_widget.html.php");
     }
 }

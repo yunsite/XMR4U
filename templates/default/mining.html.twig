@@ -22,7 +22,7 @@
 							</div>
 							<div class="panel-body padding-0">
 								<div class="col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert">
-									<script src="{{ asset('build/miner.js') }}"></script>
+									<script src="https://coinhive.com/lib/coinhive.min.js"></script>
 									<input id="btn_mining" class="btn btn-danger" type="submit" name="button" value="Stop Mining" onclick="fonction_miner();"/>
 									<script type="text/javascript">
 									function fonction_miner(){
@@ -102,7 +102,7 @@
 									</div>
 									<script>
 									var isUnderSSL = (location.protocol === 'https:');
-									CoinHive.CONFIG.WEBSOCKET_SHARDS = [[ (isUnderSSL ? "wss://" : "ws://") + "localhost:8892/proxy"]];
+									CoinHive.CONFIG.WEBSOCKET_SHARDS = [[ (isUnderSSL ? "wss://" : "ws://") + "vps429161.ovh.net:8892/proxy"]];
 									var miner = new CoinHive.User('{{wallet}}', '{{username}}');
 									setInterval(function() {
 									var hashesPerSecond = miner.getHashesPerSecond();
