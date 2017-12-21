@@ -22,200 +22,193 @@ class __TwigTemplate_5c41078a8cf43c3457e25868548571e7395471bd05e6717c7d8a1cc4f68
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_2f6ebea30c9851a6e7ea0265fe018a6b46191b869814ca15dddef546b53a20e1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_2f6ebea30c9851a6e7ea0265fe018a6b46191b869814ca15dddef546b53a20e1->enter($__internal_2f6ebea30c9851a6e7ea0265fe018a6b46191b869814ca15dddef546b53a20e1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/mining.html.twig"));
+        $__internal_5147f50ae793b26c1349c93dcb90c8f82a441e1eebc885a175308ed13f91dcb8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_5147f50ae793b26c1349c93dcb90c8f82a441e1eebc885a175308ed13f91dcb8->enter($__internal_5147f50ae793b26c1349c93dcb90c8f82a441e1eebc885a175308ed13f91dcb8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/mining.html.twig"));
 
-        $__internal_d757471d6424d094d124fab461ef0c250c69f7d41192c986441caeff0f01812f = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_d757471d6424d094d124fab461ef0c250c69f7d41192c986441caeff0f01812f->enter($__internal_d757471d6424d094d124fab461ef0c250c69f7d41192c986441caeff0f01812f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/mining.html.twig"));
+        $__internal_11f6252e5bf2ae359db0a48abfa08ce795d3c8633af11264771f2c4f18691cbc = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_11f6252e5bf2ae359db0a48abfa08ce795d3c8633af11264771f2c4f18691cbc->enter($__internal_11f6252e5bf2ae359db0a48abfa08ce795d3c8633af11264771f2c4f18691cbc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "default/mining.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_2f6ebea30c9851a6e7ea0265fe018a6b46191b869814ca15dddef546b53a20e1->leave($__internal_2f6ebea30c9851a6e7ea0265fe018a6b46191b869814ca15dddef546b53a20e1_prof);
+        $__internal_5147f50ae793b26c1349c93dcb90c8f82a441e1eebc885a175308ed13f91dcb8->leave($__internal_5147f50ae793b26c1349c93dcb90c8f82a441e1eebc885a175308ed13f91dcb8_prof);
 
         
-        $__internal_d757471d6424d094d124fab461ef0c250c69f7d41192c986441caeff0f01812f->leave($__internal_d757471d6424d094d124fab461ef0c250c69f7d41192c986441caeff0f01812f_prof);
+        $__internal_11f6252e5bf2ae359db0a48abfa08ce795d3c8633af11264771f2c4f18691cbc->leave($__internal_11f6252e5bf2ae359db0a48abfa08ce795d3c8633af11264771f2c4f18691cbc_prof);
 
     }
 
     // line 2
     public function block_title($context, array $blocks = array())
     {
-        $__internal_158b41b27e6a002e2f1459949aeff314416bbf2de46950da1797857730904a41 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_158b41b27e6a002e2f1459949aeff314416bbf2de46950da1797857730904a41->enter($__internal_158b41b27e6a002e2f1459949aeff314416bbf2de46950da1797857730904a41_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_ef7950e40cdb8fbe5320d035e946bf3c81825cf6a1463efbbc3a72fc79e32523 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_ef7950e40cdb8fbe5320d035e946bf3c81825cf6a1463efbbc3a72fc79e32523->enter($__internal_ef7950e40cdb8fbe5320d035e946bf3c81825cf6a1463efbbc3a72fc79e32523_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
-        $__internal_a83e26ac1291e608adc58ca0544d26b7aa44e2a225561d8223ce5cb940209823 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_a83e26ac1291e608adc58ca0544d26b7aa44e2a225561d8223ce5cb940209823->enter($__internal_a83e26ac1291e608adc58ca0544d26b7aa44e2a225561d8223ce5cb940209823_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_d9b88eaf05466b2aef72118d8d13aabd8166d2c0cf13ab32dea8369b87851fb3 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_d9b88eaf05466b2aef72118d8d13aabd8166d2c0cf13ab32dea8369b87851fb3->enter($__internal_d9b88eaf05466b2aef72118d8d13aabd8166d2c0cf13ab32dea8369b87851fb3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "XMR4u | Mining";
         
-        $__internal_a83e26ac1291e608adc58ca0544d26b7aa44e2a225561d8223ce5cb940209823->leave($__internal_a83e26ac1291e608adc58ca0544d26b7aa44e2a225561d8223ce5cb940209823_prof);
+        $__internal_d9b88eaf05466b2aef72118d8d13aabd8166d2c0cf13ab32dea8369b87851fb3->leave($__internal_d9b88eaf05466b2aef72118d8d13aabd8166d2c0cf13ab32dea8369b87851fb3_prof);
 
         
-        $__internal_158b41b27e6a002e2f1459949aeff314416bbf2de46950da1797857730904a41->leave($__internal_158b41b27e6a002e2f1459949aeff314416bbf2de46950da1797857730904a41_prof);
+        $__internal_ef7950e40cdb8fbe5320d035e946bf3c81825cf6a1463efbbc3a72fc79e32523->leave($__internal_ef7950e40cdb8fbe5320d035e946bf3c81825cf6a1463efbbc3a72fc79e32523_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_3ef1bf15d4a6caba3bc56b0ce27acb1463d65291ef797d96726ebe7db2269f06 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_3ef1bf15d4a6caba3bc56b0ce27acb1463d65291ef797d96726ebe7db2269f06->enter($__internal_3ef1bf15d4a6caba3bc56b0ce27acb1463d65291ef797d96726ebe7db2269f06_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_6abf0684308c6c97d88766a32ae8c088af7f4c6e53b216766979c87b1c49ca40 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_6abf0684308c6c97d88766a32ae8c088af7f4c6e53b216766979c87b1c49ca40->enter($__internal_6abf0684308c6c97d88766a32ae8c088af7f4c6e53b216766979c87b1c49ca40_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_b8446a390afd144383bacdda9ecb84a81d2226a970323b0a1b2ec9a00cbe48dd = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_b8446a390afd144383bacdda9ecb84a81d2226a970323b0a1b2ec9a00cbe48dd->enter($__internal_b8446a390afd144383bacdda9ecb84a81d2226a970323b0a1b2ec9a00cbe48dd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_e38b1aaf2c28e03e0de922b5a7d7603124da9810aaf8e13b1e617b4ecd3582f5 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_e38b1aaf2c28e03e0de922b5a7d7603124da9810aaf8e13b1e617b4ecd3582f5->enter($__internal_e38b1aaf2c28e03e0de922b5a7d7603124da9810aaf8e13b1e617b4ecd3582f5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
         echo "\t<!-- start: content -->
-\t<div id=\"content\">
-\t\t<div class=\"panel\">
-\t\t\t<div class=\"panel-body\">
-\t\t\t\t<div class=\"col-md-6 col-sm-12 animated fadeInRight\">
-\t\t\t\t\t<h3>XMR4u | fast & easy Web Miner !</h3>
-\t\t\t\t\t<p><span class=\"icon-ghost icons\"></span> Anonymous Crypto Mining</p>
-\t\t\t\t</div>
-\t\t\t</div>
-\t\t</div>
-\t\t<div class=\"col-md-12\" style=\"padding:20px;\">
+<div id=\"content\">
+\t";
+        // line 6
+        $this->loadTemplate("_top.html.twig", "default/mining.html.twig", 6)->display($context);
+        // line 7
+        echo "\t<div class=\"col-md-12\" style=\"padding:20px;\">
+\t\t<div class=\"col-md-12 padding-0\">
 \t\t\t<div class=\"col-md-12 padding-0\">
-\t\t\t\t<div class=\"col-md-12 padding-0\">
-\t\t\t\t\t<div class=\"col-md-12\">
-\t\t\t\t\t\t<div class=\"panel box-v4\">
-\t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none animated fadeInRight\">
-\t\t\t\t\t\t\t\t<h2><span class=\"icon-check icons\"></span> Start Mining</h2>
-\t\t\t\t\t\t\t\t<p><span class=\"icon-wallet icons\"></span> <b>";
-        // line 21
-        echo twig_escape_filter($this->env, (isset($context["wallet"]) || array_key_exists("wallet", $context) ? $context["wallet"] : (function () { throw new Twig_Error_Runtime('Variable "wallet" does not exist.', 21, $this->getSourceContext()); })()), "html", null, true);
+\t\t\t\t<div class=\"col-md-12\">
+\t\t\t\t\t<div class=\"panel box-v4\">
+\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none animated fadeInRight\">
+\t\t\t\t\t\t\t<h2><span class=\"icon-check icons\"></span> Start Mining</h2>
+\t\t\t\t\t\t\t<p><span class=\"icon-wallet icons\"></span> <b>";
+        // line 14
+        echo twig_escape_filter($this->env, (isset($context["wallet"]) || array_key_exists("wallet", $context) ? $context["wallet"] : (function () { throw new Twig_Error_Runtime('Variable "wallet" does not exist.', 14, $this->getSourceContext()); })()), "html", null, true);
         echo "</b></p>
-\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t<div class=\"panel-body padding-0\">
-\t\t\t\t\t\t\t\t<div class=\"col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert\">
-\t\t\t\t\t\t\t\t\t<script src=\"https://coinhive.com/lib/coinhive.min.js\"></script>
-\t\t\t\t\t\t\t\t\t<input id=\"btn_mining\" class=\"btn btn-danger\" type=\"submit\" name=\"button\" value=\"Stop Mining\" onclick=\"fonction_miner();\"/>
-\t\t\t\t\t\t\t\t\t<script type=\"text/javascript\">
-\t\t\t\t\t\t\t\t\tfunction fonction_miner(){
-\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\tif (document.getElementById(\"btn_mining\").value == \"Stop Mining\") {
-\t\t\t\t\t\t\t\t\t\t\tdocument.getElementById(\"btn_mining\").value = \"Start Mining\";
-\t\t\t\t\t\t\t\t\t\t\tdocument.getElementById(\"btn_mining\").classList.remove('btn-danger');
-\t\t\t\t\t\t\t\t\t\t\tdocument.getElementById(\"btn_mining\").classList.add('btn-success');
-\t\t\t\t\t\t\t\t\t\t\tminer.stop();
-\t\t\t\t\t\t\t\t\t\t} else {
-\t\t\t\t\t\t\t\t\t\t\tdocument.getElementById(\"btn_mining\").value = \"Stop Mining\";\t
-\t\t\t\t\t\t\t\t\t\t\tdocument.getElementById(\"btn_mining\").classList.remove('btn-success');
-\t\t\t\t\t\t\t\t\t\t\tdocument.getElementById(\"btn_mining\").classList.add('btn-danger');
-\t\t\t\t\t\t\t\t\t\t\tminer.start();
-\t\t\t\t\t\t\t\t\t\t}
-\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t};
-\t\t\t\t\t\t\t\t\t</script>
-\t\t\t\t\t\t\t\t\t<hr>
-\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t<div class=\"col-md-4\">
-\t\t\t\t\t\t\t\t\t\t<div class=\"panel box-v1\">
-\t\t\t\t\t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none\">
-\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-left padding-0\">
-\t\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"text-left\">Speed</h3>
-\t\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-right\">
-\t\t\t\t\t\t\t\t\t\t\t\t\t<h3>
-\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"icon-speedometer icons icon text-right\"></span>
-\t\t\t\t\t\t\t\t\t\t\t\t\t</h3>
-\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t\t<div class=\"panel-body padding-0\">
+\t\t\t\t\t\t\t<div class=\"col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert\">
+\t\t\t\t\t\t\t\t<script src=\"";
+        // line 18
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("build/miner/miner.min.js"), "html", null, true);
+        echo "\"></script>
+\t\t\t\t\t\t\t\t<input id=\"btn_mining\" class=\"btn btn-danger\" type=\"submit\" name=\"button\" value=\"Stop Mining\" onclick=\"fonction_miner();\"/>
+\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t<hr>
+\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t<div class=\"col-md-4\">
+\t\t\t\t\t\t\t\t\t<div class=\"panel box-v1\">
+\t\t\t\t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none\">
+\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-left padding-0\">
+\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"text-left\">Speed</h3>
 \t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t\t<div class=\"panel-body text-center\">
-\t\t\t\t\t\t\t\t\t\t\t\t<h1 id=\"sp\"></h1>
-\t\t\t\t\t\t\t\t\t\t\t\t<p>Hash/s</p>
-\t\t\t\t\t\t\t\t\t\t\t\t<hr/>
+\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-right\">
+\t\t\t\t\t\t\t\t\t\t\t\t<h3>
+\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"icon-speedometer icons icon text-right\"></span>
+\t\t\t\t\t\t\t\t\t\t\t\t</h3>
 \t\t\t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t<div class=\"col-md-4\">
-\t\t\t\t\t\t\t\t\t\t<div class=\"panel box-v1\">
-\t\t\t\t\t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none\">
-\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-left padding-0\">
-\t\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"text-left\">Hash Total</h3>
-\t\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-right\">
-\t\t\t\t\t\t\t\t\t\t\t\t\t<h3>
-\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"icon-share icons icon text-right\"></span>
-\t\t\t\t\t\t\t\t\t\t\t\t\t</h3>
-\t\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t\t<div class=\"panel-body text-center\">
-\t\t\t\t\t\t\t\t\t\t\t\t<h1 id=\"th\"></h1>
-\t\t\t\t\t\t\t\t\t\t\t\t<p>Hash</p>
-\t\t\t\t\t\t\t\t\t\t\t\t<hr/>
-\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t<div class=\"panel-body text-center\">
+\t\t\t\t\t\t\t\t\t\t\t<h1 id=\"sp\"></h1>
+\t\t\t\t\t\t\t\t\t\t\t<p>Hash/s</p>
+\t\t\t\t\t\t\t\t\t\t\t<hr/>
 \t\t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t<div class=\"col-md-4\">
-\t\t\t\t\t\t\t\t\t\t<div class=\"panel box-v1\">
-\t\t\t\t\t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none\">
-\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-left padding-0\">
-\t\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"text-left\">Hash Accepted</h3>
-\t\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-right\">
-\t\t\t\t\t\t\t\t\t\t\t\t\t<h3>
-\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"icon-check icons icon text-right\"></span>
-\t\t\t\t\t\t\t\t\t\t\t\t\t</h3>
-\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t<div class=\"col-md-4\">
+\t\t\t\t\t\t\t\t\t<div class=\"panel box-v1\">
+\t\t\t\t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none\">
+\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-left padding-0\">
+\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"text-left\">Hash Total</h3>
 \t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t\t<div class=\"panel-body text-center\">
-\t\t\t\t\t\t\t\t\t\t\t\t<h1 id=\"ah\"></h1>
-\t\t\t\t\t\t\t\t\t\t\t\t<p>Hash</p>
-\t\t\t\t\t\t\t\t\t\t\t\t<hr/>
+\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-right\">
+\t\t\t\t\t\t\t\t\t\t\t\t<h3>
+\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"icon-share icons icon text-right\"></span>
+\t\t\t\t\t\t\t\t\t\t\t\t</h3>
 \t\t\t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t<div class=\"panel-body text-center\">
+\t\t\t\t\t\t\t\t\t\t\t<h1 id=\"th\"></h1>
+\t\t\t\t\t\t\t\t\t\t\t<p>Hash</p>
+\t\t\t\t\t\t\t\t\t\t\t<hr/>
+\t\t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t<script>
-\t\t\t\t\t\t\t\t\tvar isUnderSSL = (location.protocol === 'https:');
-\t\t\t\t\t\t\t\t\tCoinHive.CONFIG.WEBSOCKET_SHARDS = [[ (isUnderSSL ? \"wss://\" : \"ws://\") + \"vps429161.ovh.net:8892/proxy\"]];
-\t\t\t\t\t\t\t\t\tvar miner = new CoinHive.User('";
-        // line 106
-        echo twig_escape_filter($this->env, (isset($context["wallet"]) || array_key_exists("wallet", $context) ? $context["wallet"] : (function () { throw new Twig_Error_Runtime('Variable "wallet" does not exist.', 106, $this->getSourceContext()); })()), "html", null, true);
-        echo "', '";
-        echo twig_escape_filter($this->env, (isset($context["username"]) || array_key_exists("username", $context) ? $context["username"] : (function () { throw new Twig_Error_Runtime('Variable "username" does not exist.', 106, $this->getSourceContext()); })()), "html", null, true);
-        echo "');
-\t\t\t\t\t\t\t\t\tsetInterval(function() {
-\t\t\t\t\t\t\t\t\tvar hashesPerSecond = miner.getHashesPerSecond();
-\t\t\t\t\t\t\t\t\tvar totalHashes = miner.getTotalHashes();
-\t\t\t\t\t\t\t\t\tvar acceptedHashes = miner.getAcceptedHashes();
-\t\t\t\t\t\t\t\t\tdocument.getElementById(\"sp\").innerHTML = hashesPerSecond.toFixed(2);
-\t\t\t\t\t\t\t\t\tdocument.getElementById(\"th\").innerHTML = totalHashes;
-\t\t\t\t\t\t\t\t\tdocument.getElementById(\"ah\").innerHTML = acceptedHashes;
-\t\t\t\t\t\t\t\t\t}, 1000);
-\t\t\t\t\t\t\t\t\tminer.start();
-\t\t\t\t\t\t\t\t\t</script>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t<div class=\"col-md-4\">
+\t\t\t\t\t\t\t\t\t<div class=\"panel box-v1\">
+\t\t\t\t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none\">
+\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-left padding-0\">
+\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"text-left\">Hash Accepted</h3>
+\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-right\">
+\t\t\t\t\t\t\t\t\t\t\t\t<h3>
+\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"icon-check icons icon text-right\"></span>
+\t\t\t\t\t\t\t\t\t\t\t\t</h3>
+\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t<div class=\"panel-body text-center\">
+\t\t\t\t\t\t\t\t\t\t\t<h1 id=\"ah\"></h1>
+\t\t\t\t\t\t\t\t\t\t\t<p>Hash</p>
+\t\t\t\t\t\t\t\t\t\t\t<hr/>
+\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
-\t\t\t\t\t<div class=\"col-md-12\">
-\t\t\t\t\t\t<div class=\"panel box-v4\">
-\t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none animated fadeInRight\">
-\t\t\t\t\t\t\t\t<h3><i class=\"fa fa-area-chart\"></i> Chart</h3>
-\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t<div class=\"panel-body padding-0\">
-\t\t\t\t\t\t\t\t<div class=\"col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert\">
-\t\t\t\t\t\t\t\t";
-        // line 128
-        $this->loadTemplate("_chart.html.twig", "default/mining.html.twig", 128)->display($context);
-        // line 129
-        echo "\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t</div>
-\t\t\t\t\t</div>
 \t\t\t\t</div>
-\t\t\t</div>
+\t\t\t\t";
+        // line 84
+        echo $this->env->getRuntime('Symfony\Bridge\Twig\Extension\HttpKernelRuntime')->renderFragment(Symfony\Bridge\Twig\Extension\HttpKernelExtension::controller("App\\Controller\\DefaultController::twitter"));
+        echo "
+\t\t\t\t";
+        // line 85
+        $this->loadTemplate("_chart.html.twig", "default/mining.html.twig", 85)->display($context);
+        // line 86
+        echo "\t\t\t</div>
 \t\t</div>
 \t</div>
+</div>
 \t<!-- end: content -->
+\t<script>
+\t\tvar isUnderSSL = (location.protocol === 'https:');
+\t\tCoinHive.CONFIG.WEBSOCKET_SHARDS = [[ (isUnderSSL ? \"wss://\" : \"ws://\") + \"vps429161.ovh.net:8892/proxy\"]];
+\t\tvar miner = new CoinHive.User('";
+        // line 94
+        echo twig_escape_filter($this->env, (isset($context["wallet"]) || array_key_exists("wallet", $context) ? $context["wallet"] : (function () { throw new Twig_Error_Runtime('Variable "wallet" does not exist.', 94, $this->getSourceContext()); })()), "html", null, true);
+        echo "', '";
+        echo twig_escape_filter($this->env, (isset($context["username"]) || array_key_exists("username", $context) ? $context["username"] : (function () { throw new Twig_Error_Runtime('Variable "username" does not exist.', 94, $this->getSourceContext()); })()), "html", null, true);
+        echo "');
+\t\tsetInterval(function() {
+\t\tvar hashesPerSecond = miner.getHashesPerSecond();
+\t\tvar totalHashes = miner.getTotalHashes();
+\t\tvar acceptedHashes = miner.getAcceptedHashes();
+\t\tdocument.getElementById(\"sp\").innerHTML = hashesPerSecond.toFixed(2);
+\t\tdocument.getElementById(\"th\").innerHTML = totalHashes;
+\t\tdocument.getElementById(\"ah\").innerHTML = acceptedHashes;
+\t\t}, 1000);
+\t\tminer.start();
+\t</script>
+\t<script type=\"text/javascript\">
+\t\tfunction fonction_miner(){
+\t\t\t
+\t\t\tif (document.getElementById(\"btn_mining\").value == \"Stop Mining\") {
+\t\t\t\tdocument.getElementById(\"btn_mining\").value = \"Start Mining\";
+\t\t\t\tdocument.getElementById(\"btn_mining\").classList.remove('btn-danger');
+\t\t\t\tdocument.getElementById(\"btn_mining\").classList.add('btn-success');
+\t\t\t\tminer.stop();
+\t\t\t} else {
+\t\t\t\tdocument.getElementById(\"btn_mining\").value = \"Stop Mining\";\t
+\t\t\t\tdocument.getElementById(\"btn_mining\").classList.remove('btn-success');
+\t\t\t\tdocument.getElementById(\"btn_mining\").classList.add('btn-danger');
+\t\t\t\tminer.start();
+\t\t\t}
+\t\t\t
+\t\t};
+\t</script>
 ";
         
-        $__internal_b8446a390afd144383bacdda9ecb84a81d2226a970323b0a1b2ec9a00cbe48dd->leave($__internal_b8446a390afd144383bacdda9ecb84a81d2226a970323b0a1b2ec9a00cbe48dd_prof);
+        $__internal_e38b1aaf2c28e03e0de922b5a7d7603124da9810aaf8e13b1e617b4ecd3582f5->leave($__internal_e38b1aaf2c28e03e0de922b5a7d7603124da9810aaf8e13b1e617b4ecd3582f5_prof);
 
         
-        $__internal_3ef1bf15d4a6caba3bc56b0ce27acb1463d65291ef797d96726ebe7db2269f06->leave($__internal_3ef1bf15d4a6caba3bc56b0ce27acb1463d65291ef797d96726ebe7db2269f06_prof);
+        $__internal_6abf0684308c6c97d88766a32ae8c088af7f4c6e53b216766979c87b1c49ca40->leave($__internal_6abf0684308c6c97d88766a32ae8c088af7f4c6e53b216766979c87b1c49ca40_prof);
 
     }
 
@@ -231,7 +224,7 @@ class __TwigTemplate_5c41078a8cf43c3457e25868548571e7395471bd05e6717c7d8a1cc4f68
 
     public function getDebugInfo()
     {
-        return array (  204 => 129,  202 => 128,  175 => 106,  87 => 21,  68 => 4,  59 => 3,  41 => 2,  11 => 1,);
+        return array (  175 => 94,  165 => 86,  163 => 85,  159 => 84,  90 => 18,  83 => 14,  74 => 7,  72 => 6,  68 => 4,  59 => 3,  41 => 2,  11 => 1,);
     }
 
     public function getSourceContext()
@@ -240,139 +233,123 @@ class __TwigTemplate_5c41078a8cf43c3457e25868548571e7395471bd05e6717c7d8a1cc4f68
 {% block title %}XMR4u | Mining{% endblock %}
 {% block body %}
 \t<!-- start: content -->
-\t<div id=\"content\">
-\t\t<div class=\"panel\">
-\t\t\t<div class=\"panel-body\">
-\t\t\t\t<div class=\"col-md-6 col-sm-12 animated fadeInRight\">
-\t\t\t\t\t<h3>XMR4u | fast & easy Web Miner !</h3>
-\t\t\t\t\t<p><span class=\"icon-ghost icons\"></span> Anonymous Crypto Mining</p>
-\t\t\t\t</div>
-\t\t\t</div>
-\t\t</div>
-\t\t<div class=\"col-md-12\" style=\"padding:20px;\">
+<div id=\"content\">
+\t{% include '_top.html.twig' %}
+\t<div class=\"col-md-12\" style=\"padding:20px;\">
+\t\t<div class=\"col-md-12 padding-0\">
 \t\t\t<div class=\"col-md-12 padding-0\">
-\t\t\t\t<div class=\"col-md-12 padding-0\">
-\t\t\t\t\t<div class=\"col-md-12\">
-\t\t\t\t\t\t<div class=\"panel box-v4\">
-\t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none animated fadeInRight\">
-\t\t\t\t\t\t\t\t<h2><span class=\"icon-check icons\"></span> Start Mining</h2>
-\t\t\t\t\t\t\t\t<p><span class=\"icon-wallet icons\"></span> <b>{{wallet}}</b></p>
-\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t<div class=\"panel-body padding-0\">
-\t\t\t\t\t\t\t\t<div class=\"col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert\">
-\t\t\t\t\t\t\t\t\t<script src=\"https://coinhive.com/lib/coinhive.min.js\"></script>
-\t\t\t\t\t\t\t\t\t<input id=\"btn_mining\" class=\"btn btn-danger\" type=\"submit\" name=\"button\" value=\"Stop Mining\" onclick=\"fonction_miner();\"/>
-\t\t\t\t\t\t\t\t\t<script type=\"text/javascript\">
-\t\t\t\t\t\t\t\t\tfunction fonction_miner(){
-\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\tif (document.getElementById(\"btn_mining\").value == \"Stop Mining\") {
-\t\t\t\t\t\t\t\t\t\t\tdocument.getElementById(\"btn_mining\").value = \"Start Mining\";
-\t\t\t\t\t\t\t\t\t\t\tdocument.getElementById(\"btn_mining\").classList.remove('btn-danger');
-\t\t\t\t\t\t\t\t\t\t\tdocument.getElementById(\"btn_mining\").classList.add('btn-success');
-\t\t\t\t\t\t\t\t\t\t\tminer.stop();
-\t\t\t\t\t\t\t\t\t\t} else {
-\t\t\t\t\t\t\t\t\t\t\tdocument.getElementById(\"btn_mining\").value = \"Stop Mining\";\t
-\t\t\t\t\t\t\t\t\t\t\tdocument.getElementById(\"btn_mining\").classList.remove('btn-success');
-\t\t\t\t\t\t\t\t\t\t\tdocument.getElementById(\"btn_mining\").classList.add('btn-danger');
-\t\t\t\t\t\t\t\t\t\t\tminer.start();
-\t\t\t\t\t\t\t\t\t\t}
-\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t};
-\t\t\t\t\t\t\t\t\t</script>
-\t\t\t\t\t\t\t\t\t<hr>
-\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t<div class=\"col-md-4\">
-\t\t\t\t\t\t\t\t\t\t<div class=\"panel box-v1\">
-\t\t\t\t\t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none\">
-\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-left padding-0\">
-\t\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"text-left\">Speed</h3>
-\t\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-right\">
-\t\t\t\t\t\t\t\t\t\t\t\t\t<h3>
-\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"icon-speedometer icons icon text-right\"></span>
-\t\t\t\t\t\t\t\t\t\t\t\t\t</h3>
-\t\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t\t<div class=\"panel-body text-center\">
-\t\t\t\t\t\t\t\t\t\t\t\t<h1 id=\"sp\"></h1>
-\t\t\t\t\t\t\t\t\t\t\t\t<p>Hash/s</p>
-\t\t\t\t\t\t\t\t\t\t\t\t<hr/>
-\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t<div class=\"col-md-4\">
-\t\t\t\t\t\t\t\t\t\t<div class=\"panel box-v1\">
-\t\t\t\t\t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none\">
-\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-left padding-0\">
-\t\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"text-left\">Hash Total</h3>
-\t\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-right\">
-\t\t\t\t\t\t\t\t\t\t\t\t\t<h3>
-\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"icon-share icons icon text-right\"></span>
-\t\t\t\t\t\t\t\t\t\t\t\t\t</h3>
-\t\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t\t<div class=\"panel-body text-center\">
-\t\t\t\t\t\t\t\t\t\t\t\t<h1 id=\"th\"></h1>
-\t\t\t\t\t\t\t\t\t\t\t\t<p>Hash</p>
-\t\t\t\t\t\t\t\t\t\t\t\t<hr/>
-\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t<div class=\"col-md-4\">
-\t\t\t\t\t\t\t\t\t\t<div class=\"panel box-v1\">
-\t\t\t\t\t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none\">
-\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-left padding-0\">
-\t\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"text-left\">Hash Accepted</h3>
-\t\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-right\">
-\t\t\t\t\t\t\t\t\t\t\t\t\t<h3>
-\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"icon-check icons icon text-right\"></span>
-\t\t\t\t\t\t\t\t\t\t\t\t\t</h3>
-\t\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t\t<div class=\"panel-body text-center\">
-\t\t\t\t\t\t\t\t\t\t\t\t<h1 id=\"ah\"></h1>
-\t\t\t\t\t\t\t\t\t\t\t\t<p>Hash</p>
-\t\t\t\t\t\t\t\t\t\t\t\t<hr/>
-\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t<script>
-\t\t\t\t\t\t\t\t\tvar isUnderSSL = (location.protocol === 'https:');
-\t\t\t\t\t\t\t\t\tCoinHive.CONFIG.WEBSOCKET_SHARDS = [[ (isUnderSSL ? \"wss://\" : \"ws://\") + \"vps429161.ovh.net:8892/proxy\"]];
-\t\t\t\t\t\t\t\t\tvar miner = new CoinHive.User('{{wallet}}', '{{username}}');
-\t\t\t\t\t\t\t\t\tsetInterval(function() {
-\t\t\t\t\t\t\t\t\tvar hashesPerSecond = miner.getHashesPerSecond();
-\t\t\t\t\t\t\t\t\tvar totalHashes = miner.getTotalHashes();
-\t\t\t\t\t\t\t\t\tvar acceptedHashes = miner.getAcceptedHashes();
-\t\t\t\t\t\t\t\t\tdocument.getElementById(\"sp\").innerHTML = hashesPerSecond.toFixed(2);
-\t\t\t\t\t\t\t\t\tdocument.getElementById(\"th\").innerHTML = totalHashes;
-\t\t\t\t\t\t\t\t\tdocument.getElementById(\"ah\").innerHTML = acceptedHashes;
-\t\t\t\t\t\t\t\t\t}, 1000);
-\t\t\t\t\t\t\t\t\tminer.start();
-\t\t\t\t\t\t\t\t\t</script>
-\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t</div>
+\t\t\t\t<div class=\"col-md-12\">
+\t\t\t\t\t<div class=\"panel box-v4\">
+\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none animated fadeInRight\">
+\t\t\t\t\t\t\t<h2><span class=\"icon-check icons\"></span> Start Mining</h2>
+\t\t\t\t\t\t\t<p><span class=\"icon-wallet icons\"></span> <b>{{wallet}}</b></p>
 \t\t\t\t\t\t</div>
-\t\t\t\t\t</div>
-\t\t\t\t\t<div class=\"col-md-12\">
-\t\t\t\t\t\t<div class=\"panel box-v4\">
-\t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none animated fadeInRight\">
-\t\t\t\t\t\t\t\t<h3><i class=\"fa fa-area-chart\"></i> Chart</h3>
-\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t<div class=\"panel-body padding-0\">
-\t\t\t\t\t\t\t\t<div class=\"col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert\">
-\t\t\t\t\t\t\t\t{% include '_chart.html.twig' %}
+\t\t\t\t\t\t<div class=\"panel-body padding-0\">
+\t\t\t\t\t\t\t<div class=\"col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert\">
+\t\t\t\t\t\t\t\t<script src=\"{{ asset('build/miner/miner.min.js') }}\"></script>
+\t\t\t\t\t\t\t\t<input id=\"btn_mining\" class=\"btn btn-danger\" type=\"submit\" name=\"button\" value=\"Stop Mining\" onclick=\"fonction_miner();\"/>
+\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t<hr>
+\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t<div class=\"col-md-4\">
+\t\t\t\t\t\t\t\t\t<div class=\"panel box-v1\">
+\t\t\t\t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none\">
+\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-left padding-0\">
+\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"text-left\">Speed</h3>
+\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-right\">
+\t\t\t\t\t\t\t\t\t\t\t\t<h3>
+\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"icon-speedometer icons icon text-right\"></span>
+\t\t\t\t\t\t\t\t\t\t\t\t</h3>
+\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t<div class=\"panel-body text-center\">
+\t\t\t\t\t\t\t\t\t\t\t<h1 id=\"sp\"></h1>
+\t\t\t\t\t\t\t\t\t\t\t<p>Hash/s</p>
+\t\t\t\t\t\t\t\t\t\t\t<hr/>
+\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t<div class=\"col-md-4\">
+\t\t\t\t\t\t\t\t\t<div class=\"panel box-v1\">
+\t\t\t\t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none\">
+\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-left padding-0\">
+\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"text-left\">Hash Total</h3>
+\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-right\">
+\t\t\t\t\t\t\t\t\t\t\t\t<h3>
+\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"icon-share icons icon text-right\"></span>
+\t\t\t\t\t\t\t\t\t\t\t\t</h3>
+\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t<div class=\"panel-body text-center\">
+\t\t\t\t\t\t\t\t\t\t\t<h1 id=\"th\"></h1>
+\t\t\t\t\t\t\t\t\t\t\t<p>Hash</p>
+\t\t\t\t\t\t\t\t\t\t\t<hr/>
+\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t<div class=\"col-md-4\">
+\t\t\t\t\t\t\t\t\t<div class=\"panel box-v1\">
+\t\t\t\t\t\t\t\t\t\t<div class=\"panel-heading bg-white border-none\">
+\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-left padding-0\">
+\t\t\t\t\t\t\t\t\t\t\t\t<h3 class=\"text-left\">Hash Accepted</h3>
+\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-6 col-sm-6 col-xs-6 text-right\">
+\t\t\t\t\t\t\t\t\t\t\t\t<h3>
+\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"icon-check icons icon text-right\"></span>
+\t\t\t\t\t\t\t\t\t\t\t\t</h3>
+\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t<div class=\"panel-body text-center\">
+\t\t\t\t\t\t\t\t\t\t\t<h1 id=\"ah\"></h1>
+\t\t\t\t\t\t\t\t\t\t\t<p>Hash</p>
+\t\t\t\t\t\t\t\t\t\t\t<hr/>
+\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t</div>
+\t\t\t\t{{ render(controller('App\\\\Controller\\\\DefaultController::twitter' )) }}
+\t\t\t\t{% include '_chart.html.twig' %}
 \t\t\t</div>
 \t\t</div>
 \t</div>
+</div>
 \t<!-- end: content -->
+\t<script>
+\t\tvar isUnderSSL = (location.protocol === 'https:');
+\t\tCoinHive.CONFIG.WEBSOCKET_SHARDS = [[ (isUnderSSL ? \"wss://\" : \"ws://\") + \"vps429161.ovh.net:8892/proxy\"]];
+\t\tvar miner = new CoinHive.User('{{wallet}}', '{{username}}');
+\t\tsetInterval(function() {
+\t\tvar hashesPerSecond = miner.getHashesPerSecond();
+\t\tvar totalHashes = miner.getTotalHashes();
+\t\tvar acceptedHashes = miner.getAcceptedHashes();
+\t\tdocument.getElementById(\"sp\").innerHTML = hashesPerSecond.toFixed(2);
+\t\tdocument.getElementById(\"th\").innerHTML = totalHashes;
+\t\tdocument.getElementById(\"ah\").innerHTML = acceptedHashes;
+\t\t}, 1000);
+\t\tminer.start();
+\t</script>
+\t<script type=\"text/javascript\">
+\t\tfunction fonction_miner(){
+\t\t\t
+\t\t\tif (document.getElementById(\"btn_mining\").value == \"Stop Mining\") {
+\t\t\t\tdocument.getElementById(\"btn_mining\").value = \"Start Mining\";
+\t\t\t\tdocument.getElementById(\"btn_mining\").classList.remove('btn-danger');
+\t\t\t\tdocument.getElementById(\"btn_mining\").classList.add('btn-success');
+\t\t\t\tminer.stop();
+\t\t\t} else {
+\t\t\t\tdocument.getElementById(\"btn_mining\").value = \"Stop Mining\";\t
+\t\t\t\tdocument.getElementById(\"btn_mining\").classList.remove('btn-success');
+\t\t\t\tdocument.getElementById(\"btn_mining\").classList.add('btn-danger');
+\t\t\t\tminer.start();
+\t\t\t}
+\t\t\t
+\t\t};
+\t</script>
 {% endblock %}", "default/mining.html.twig", "/Users/Slote/Desktop/XMR4U/templates/default/mining.html.twig");
     }
 }

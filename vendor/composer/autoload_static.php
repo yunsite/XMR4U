@@ -60,6 +60,7 @@ class ComposerStaticInitc979826b89c55babc25445628591f218
         array (
             'App\\Tests\\' => 10,
             'App\\' => 4,
+            'Abraham\\TwitterOAuth\\' => 21,
         ),
     );
 
@@ -203,6 +204,10 @@ class ComposerStaticInitc979826b89c55babc25445628591f218
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Abraham\\TwitterOAuth\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/abraham/twitteroauth/src',
         ),
     );
 

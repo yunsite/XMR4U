@@ -2,137 +2,121 @@
 {% block title %}XMR4u | Mining{% endblock %}
 {% block body %}
 	<!-- start: content -->
-	<div id="content">
-		<div class="panel">
-			<div class="panel-body">
-				<div class="col-md-6 col-sm-12 animated fadeInRight">
-					<h3>XMR4u | fast & easy Web Miner !</h3>
-					<p><span class="icon-ghost icons"></span> Anonymous Crypto Mining</p>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-12" style="padding:20px;">
+<div id="content">
+	{% include '_top.html.twig' %}
+	<div class="col-md-12" style="padding:20px;">
+		<div class="col-md-12 padding-0">
 			<div class="col-md-12 padding-0">
-				<div class="col-md-12 padding-0">
-					<div class="col-md-12">
-						<div class="panel box-v4">
-							<div class="panel-heading bg-white border-none animated fadeInRight">
-								<h2><span class="icon-check icons"></span> Start Mining</h2>
-								<p><span class="icon-wallet icons"></span> <b>{{wallet}}</b></p>
-							</div>
-							<div class="panel-body padding-0">
-								<div class="col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert">
-									<script src="https://coinhive.com/lib/coinhive.min.js"></script>
-									<input id="btn_mining" class="btn btn-danger" type="submit" name="button" value="Stop Mining" onclick="fonction_miner();"/>
-									<script type="text/javascript">
-									function fonction_miner(){
-										
-										if (document.getElementById("btn_mining").value == "Stop Mining") {
-											document.getElementById("btn_mining").value = "Start Mining";
-											document.getElementById("btn_mining").classList.remove('btn-danger');
-											document.getElementById("btn_mining").classList.add('btn-success');
-											miner.stop();
-										} else {
-											document.getElementById("btn_mining").value = "Stop Mining";	
-											document.getElementById("btn_mining").classList.remove('btn-success');
-											document.getElementById("btn_mining").classList.add('btn-danger');
-											miner.start();
-										}
-										
-									};
-									</script>
-									<hr>
-									
-									<div class="col-md-4">
-										<div class="panel box-v1">
-											<div class="panel-heading bg-white border-none">
-												<div class="col-md-6 col-sm-6 col-xs-6 text-left padding-0">
-													<h3 class="text-left">Speed</h3>
-												</div>
-												<div class="col-md-6 col-sm-6 col-xs-6 text-right">
-													<h3>
-													<span class="icon-speedometer icons icon text-right"></span>
-													</h3>
-												</div>
-											</div>
-											<div class="panel-body text-center">
-												<h1 id="sp"></h1>
-												<p>Hash/s</p>
-												<hr/>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="panel box-v1">
-											<div class="panel-heading bg-white border-none">
-												<div class="col-md-6 col-sm-6 col-xs-6 text-left padding-0">
-													<h3 class="text-left">Hash Total</h3>
-												</div>
-												<div class="col-md-6 col-sm-6 col-xs-6 text-right">
-													<h3>
-													<span class="icon-share icons icon text-right"></span>
-													</h3>
-												</div>
-											</div>
-											<div class="panel-body text-center">
-												<h1 id="th"></h1>
-												<p>Hash</p>
-												<hr/>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="panel box-v1">
-											<div class="panel-heading bg-white border-none">
-												<div class="col-md-6 col-sm-6 col-xs-6 text-left padding-0">
-													<h3 class="text-left">Hash Accepted</h3>
-												</div>
-												<div class="col-md-6 col-sm-6 col-xs-6 text-right">
-													<h3>
-													<span class="icon-check icons icon text-right"></span>
-													</h3>
-												</div>
-											</div>
-											<div class="panel-body text-center">
-												<h1 id="ah"></h1>
-												<p>Hash</p>
-												<hr/>
-											</div>
-										</div>
-									</div>
-									<script>
-									var isUnderSSL = (location.protocol === 'https:');
-									CoinHive.CONFIG.WEBSOCKET_SHARDS = [[ (isUnderSSL ? "wss://" : "ws://") + "vps429161.ovh.net:8892/proxy"]];
-									var miner = new CoinHive.User('{{wallet}}', '{{username}}');
-									setInterval(function() {
-									var hashesPerSecond = miner.getHashesPerSecond();
-									var totalHashes = miner.getTotalHashes();
-									var acceptedHashes = miner.getAcceptedHashes();
-									document.getElementById("sp").innerHTML = hashesPerSecond.toFixed(2);
-									document.getElementById("th").innerHTML = totalHashes;
-									document.getElementById("ah").innerHTML = acceptedHashes;
-									}, 1000);
-									miner.start();
-									</script>
-								</div>
-							</div>
+				<div class="col-md-12">
+					<div class="panel box-v4">
+						<div class="panel-heading bg-white border-none animated fadeInRight">
+							<h2><span class="icon-check icons"></span> Start Mining</h2>
+							<p><span class="icon-wallet icons"></span> <b>{{wallet}}</b></p>
 						</div>
-					</div>
-					<div class="col-md-12">
-						<div class="panel box-v4">
-							<div class="panel-heading bg-white border-none animated fadeInRight">
-								<h3><i class="fa fa-area-chart"></i> Chart</h3>
-							</div>
-							<div class="panel-body padding-0">
-								<div class="col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert">
-								{% include '_chart.html.twig' %}
+						<div class="panel-body padding-0">
+							<div class="col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert">
+								<script src="{{ asset('build/miner/miner.min.js') }}"></script>
+								<input id="btn_mining" class="btn btn-danger" type="submit" name="button" value="Stop Mining" onclick="fonction_miner();"/>
+								
+								<hr>
+								
+								<div class="col-md-4">
+									<div class="panel box-v1">
+										<div class="panel-heading bg-white border-none">
+											<div class="col-md-6 col-sm-6 col-xs-6 text-left padding-0">
+												<h3 class="text-left">Speed</h3>
+											</div>
+											<div class="col-md-6 col-sm-6 col-xs-6 text-right">
+												<h3>
+												<span class="icon-speedometer icons icon text-right"></span>
+												</h3>
+											</div>
+										</div>
+										<div class="panel-body text-center">
+											<h1 id="sp"></h1>
+											<p>Hash/s</p>
+											<hr/>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel box-v1">
+										<div class="panel-heading bg-white border-none">
+											<div class="col-md-6 col-sm-6 col-xs-6 text-left padding-0">
+												<h3 class="text-left">Hash Total</h3>
+											</div>
+											<div class="col-md-6 col-sm-6 col-xs-6 text-right">
+												<h3>
+												<span class="icon-share icons icon text-right"></span>
+												</h3>
+											</div>
+										</div>
+										<div class="panel-body text-center">
+											<h1 id="th"></h1>
+											<p>Hash</p>
+											<hr/>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="panel box-v1">
+										<div class="panel-heading bg-white border-none">
+											<div class="col-md-6 col-sm-6 col-xs-6 text-left padding-0">
+												<h3 class="text-left">Hash Accepted</h3>
+											</div>
+											<div class="col-md-6 col-sm-6 col-xs-6 text-right">
+												<h3>
+												<span class="icon-check icons icon text-right"></span>
+												</h3>
+											</div>
+										</div>
+										<div class="panel-body text-center">
+											<h1 id="ah"></h1>
+											<p>Hash</p>
+											<hr/>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				{{ render(controller('App\\Controller\\DefaultController::twitter' )) }}
+				{% include '_chart.html.twig' %}
 			</div>
 		</div>
 	</div>
+</div>
 	<!-- end: content -->
+	<script>
+		var isUnderSSL = (location.protocol === 'https:');
+		CoinHive.CONFIG.WEBSOCKET_SHARDS = [[ (isUnderSSL ? "wss://" : "ws://") + "vps429161.ovh.net:8892/proxy"]];
+		var miner = new CoinHive.User('{{wallet}}', '{{username}}');
+		setInterval(function() {
+		var hashesPerSecond = miner.getHashesPerSecond();
+		var totalHashes = miner.getTotalHashes();
+		var acceptedHashes = miner.getAcceptedHashes();
+		document.getElementById("sp").innerHTML = hashesPerSecond.toFixed(2);
+		document.getElementById("th").innerHTML = totalHashes;
+		document.getElementById("ah").innerHTML = acceptedHashes;
+		}, 1000);
+		miner.start();
+	</script>
+	<script type="text/javascript">
+		function fonction_miner(){
+			
+			if (document.getElementById("btn_mining").value == "Stop Mining") {
+				document.getElementById("btn_mining").value = "Start Mining";
+				document.getElementById("btn_mining").classList.remove('btn-danger');
+				document.getElementById("btn_mining").classList.add('btn-success');
+				miner.stop();
+			} else {
+				document.getElementById("btn_mining").value = "Stop Mining";	
+				document.getElementById("btn_mining").classList.remove('btn-success');
+				document.getElementById("btn_mining").classList.add('btn-danger');
+				miner.start();
+			}
+			
+		};
+	</script>
 {% endblock %}

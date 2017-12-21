@@ -15,11 +15,11 @@ class __TwigTemplate_f3c4d23bf4b77d5bb028ae64d1aae352a46519252fbe1ea22ebf7cc29ed
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_331cf8689d7d21921dc943875beccbbe876f4979b2d04a3f6c774f3293d6272c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_331cf8689d7d21921dc943875beccbbe876f4979b2d04a3f6c774f3293d6272c->enter($__internal_331cf8689d7d21921dc943875beccbbe876f4979b2d04a3f6c774f3293d6272c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_header.html.twig"));
+        $__internal_da07b4e3eab28236d611bd2f47daff2bffcdf606ab26060186f5b7af4e8d7d21 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_da07b4e3eab28236d611bd2f47daff2bffcdf606ab26060186f5b7af4e8d7d21->enter($__internal_da07b4e3eab28236d611bd2f47daff2bffcdf606ab26060186f5b7af4e8d7d21_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_header.html.twig"));
 
-        $__internal_e1999b3876579395cf3b23d3662add090e0b53c53c6c9ce72153227d55341255 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_e1999b3876579395cf3b23d3662add090e0b53c53c6c9ce72153227d55341255->enter($__internal_e1999b3876579395cf3b23d3662add090e0b53c53c6c9ce72153227d55341255_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_header.html.twig"));
+        $__internal_a58c925a22c55df13702474986152fe8651a4191e2366a91a12bd9b6b7d089fa = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_a58c925a22c55df13702474986152fe8651a4191e2366a91a12bd9b6b7d089fa->enter($__internal_a58c925a22c55df13702474986152fe8651a4191e2366a91a12bd9b6b7d089fa_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_header.html.twig"));
 
         // line 1
         echo "<!-- start: Header -->
@@ -31,11 +31,14 @@ class __TwigTemplate_f3c4d23bf4b77d5bb028ae64d1aae352a46519252fbe1ea22ebf7cc29ed
 \t\t\t\t<span class=\"middle\"></span>
 \t\t\t\t<span class=\"bottom\"></span>
 \t\t\t</div>
-\t\t\t<a href=\"index.html\" class=\"navbar-brand\">
+\t\t\t<a href=\"";
+        // line 10
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index");
+        echo "\" class=\"navbar-brand\">
 \t\t\t\t<b>XMR4u</b>
 \t\t\t</a>
 \t\t\t<ul class=\"nav navbar-nav navbar-right user-nav\">
-\t\t\t\t<li class=\"user-name\"><span>Slote</span></li>
+\t\t\t\t<li class=\"user-name\"><span>Anonymous</span></li>
 \t\t\t\t<li class=\"dropdown avatar-dropdown\">
 \t\t\t\t\t<img src=\"";
         // line 16
@@ -52,10 +55,10 @@ class __TwigTemplate_f3c4d23bf4b77d5bb028ae64d1aae352a46519252fbe1ea22ebf7cc29ed
 </nav>
 <!-- end: Header -->";
         
-        $__internal_331cf8689d7d21921dc943875beccbbe876f4979b2d04a3f6c774f3293d6272c->leave($__internal_331cf8689d7d21921dc943875beccbbe876f4979b2d04a3f6c774f3293d6272c_prof);
+        $__internal_da07b4e3eab28236d611bd2f47daff2bffcdf606ab26060186f5b7af4e8d7d21->leave($__internal_da07b4e3eab28236d611bd2f47daff2bffcdf606ab26060186f5b7af4e8d7d21_prof);
 
         
-        $__internal_e1999b3876579395cf3b23d3662add090e0b53c53c6c9ce72153227d55341255->leave($__internal_e1999b3876579395cf3b23d3662add090e0b53c53c6c9ce72153227d55341255_prof);
+        $__internal_a58c925a22c55df13702474986152fe8651a4191e2366a91a12bd9b6b7d089fa->leave($__internal_a58c925a22c55df13702474986152fe8651a4191e2366a91a12bd9b6b7d089fa_prof);
 
     }
 
@@ -71,7 +74,7 @@ class __TwigTemplate_f3c4d23bf4b77d5bb028ae64d1aae352a46519252fbe1ea22ebf7cc29ed
 
     public function getDebugInfo()
     {
-        return array (  42 => 16,  25 => 1,);
+        return array (  45 => 16,  36 => 10,  25 => 1,);
     }
 
     public function getSourceContext()
@@ -85,11 +88,11 @@ class __TwigTemplate_f3c4d23bf4b77d5bb028ae64d1aae352a46519252fbe1ea22ebf7cc29ed
 \t\t\t\t<span class=\"middle\"></span>
 \t\t\t\t<span class=\"bottom\"></span>
 \t\t\t</div>
-\t\t\t<a href=\"index.html\" class=\"navbar-brand\">
+\t\t\t<a href=\"{{ path('index') }}\" class=\"navbar-brand\">
 \t\t\t\t<b>XMR4u</b>
 \t\t\t</a>
 \t\t\t<ul class=\"nav navbar-nav navbar-right user-nav\">
-\t\t\t\t<li class=\"user-name\"><span>Slote</span></li>
+\t\t\t\t<li class=\"user-name\"><span>Anonymous</span></li>
 \t\t\t\t<li class=\"dropdown avatar-dropdown\">
 \t\t\t\t\t<img src=\"{{asset('build/img/rick_head.png')}}\" class=\"img-circle avatar\" alt=\"user name\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"true\"/>
 \t\t\t\t\t<ul class=\"dropdown-menu user-dropdown\">

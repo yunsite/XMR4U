@@ -10,25 +10,10 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 
+use Abraham\TwitterOAuth\TwitterOAuth;
+
 class DefaultController extends Controller
 {
-    // public function index()
-    // {
-    //     $number = mt_rand(0, 100);
-
-    //     return $this->render('default/index.html.twig', array(
-    //         'number' => $number,
-    //     ));
-    // }
-    
-    public function mining($wallet, $username)
-    {
-        return $this->render('default/mining.html.twig', array(
-            'wallet' => $wallet,
-            'username' => $username,
-        ));
-    }
-
      public function index(Request $request)
     {
         $task = new Configuration();
@@ -52,6 +37,36 @@ class DefaultController extends Controller
 
         return $this->render('default/index.html.twig', array(
             'form' => $form->createView(),
+        ));
+    }
+    
+    public function twitter()
+    {
+        $oauth = new TwitterOAuth('pCCi8MmjleO6noyS0kYFRB7L7', 'FWu06kS6MiuXsQp0aQ0rQ6upPu039gAM33uRJIsY5wWLc6F3Us');
+        $accessToken = $oauth->oauth2('oauth2/token', ['grant_type' => 'client_credentials']);
+        $access_token = $accessToken->access_token;
+
+        // on appel l'API
+        $twitter = new TwitterOAuth('pCCi8MmjleO6noyS0kYFRB7L7', 'FWu06kS6MiuXsQp0aQ0rQ6upPu039gAM33uRJIsY5wWLc6F3Us', null, $access_token);
+        $tweets = $twitter->get('statuses/user_timeline', [
+            'screen_name' => 'Mediashare_Supp',
+            'exclude_replies' => true,
+            'count' => 10 // On est obligé de filtrer après coup (cf doc)
+        ]);
+
+        // On filtre pour ne récupérer que les 3 derniers tweets
+        $tweets = array_splice($tweets, 0, 10);
+
+        return $this->render('_timeline.html.twig', array(
+            'tweets' => $tweets,
+        ));
+    }
+
+    public function mining($wallet, $username)
+    {
+        return $this->render('default/mining.html.twig', array(
+            'wallet' => $wallet,
+            'username' => $username,
         ));
     }
 }

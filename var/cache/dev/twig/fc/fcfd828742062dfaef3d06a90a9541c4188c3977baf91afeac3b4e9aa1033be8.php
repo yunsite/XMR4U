@@ -15,15 +15,27 @@ class __TwigTemplate_cb56b608fc738009bfe41775c46cbd377a33041de94be94e13260f4b0d5
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_90df9e77b0b0d79a57d2b8f29cf4620ca865e417179c96b9376800ac90f4b9f1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_90df9e77b0b0d79a57d2b8f29cf4620ca865e417179c96b9376800ac90f4b9f1->enter($__internal_90df9e77b0b0d79a57d2b8f29cf4620ca865e417179c96b9376800ac90f4b9f1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_chart.html.twig"));
+        $__internal_89eaa6d1e967d043cd38fe01de0d5ac8a123c8dbd1f83a505f27c89d9e9b411e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_89eaa6d1e967d043cd38fe01de0d5ac8a123c8dbd1f83a505f27c89d9e9b411e->enter($__internal_89eaa6d1e967d043cd38fe01de0d5ac8a123c8dbd1f83a505f27c89d9e9b411e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_chart.html.twig"));
 
-        $__internal_465fd2057f99d766cffe54f331e88551d3fe7e5bb2031a1d64569a87329144c2 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_465fd2057f99d766cffe54f331e88551d3fe7e5bb2031a1d64569a87329144c2->enter($__internal_465fd2057f99d766cffe54f331e88551d3fe7e5bb2031a1d64569a87329144c2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_chart.html.twig"));
+        $__internal_2adf1e125d5eef13c44546b34af7597bb03fdea152121d1ecbe258b47ca521dc = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_2adf1e125d5eef13c44546b34af7597bb03fdea152121d1ecbe258b47ca521dc->enter($__internal_2adf1e125d5eef13c44546b34af7597bb03fdea152121d1ecbe258b47ca521dc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_chart.html.twig"));
 
         // line 1
-        echo "<!-- TradingView Widget BEGIN -->
-<div id=\"tv-medium-widget-9da21\"></div>
+        echo "<div class=\"col-md-6\">
+  <div class=\"panel\">
+    <div class=\"panel-heading animated fadeInRight\">
+      <h3><i class=\"fa fa-area-chart\"></i> Chart</h3>
+    </div>
+    <div class=\"panel-body padding-0\">
+      <div class=\"col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert\">
+        <div id=\"tv-medium-widget-9da21\"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- TradingView Widget BEGIN -->
+
 <script type=\"text/javascript\" src=\"https://s3.tradingview.com/tv.js\"></script>
 <script type=\"text/javascript\">
 new TradingView.MediumWidget({
@@ -45,10 +57,10 @@ new TradingView.MediumWidget({
 </script>
 <!-- TradingView Widget END -->";
         
-        $__internal_90df9e77b0b0d79a57d2b8f29cf4620ca865e417179c96b9376800ac90f4b9f1->leave($__internal_90df9e77b0b0d79a57d2b8f29cf4620ca865e417179c96b9376800ac90f4b9f1_prof);
+        $__internal_89eaa6d1e967d043cd38fe01de0d5ac8a123c8dbd1f83a505f27c89d9e9b411e->leave($__internal_89eaa6d1e967d043cd38fe01de0d5ac8a123c8dbd1f83a505f27c89d9e9b411e_prof);
 
         
-        $__internal_465fd2057f99d766cffe54f331e88551d3fe7e5bb2031a1d64569a87329144c2->leave($__internal_465fd2057f99d766cffe54f331e88551d3fe7e5bb2031a1d64569a87329144c2_prof);
+        $__internal_2adf1e125d5eef13c44546b34af7597bb03fdea152121d1ecbe258b47ca521dc->leave($__internal_2adf1e125d5eef13c44546b34af7597bb03fdea152121d1ecbe258b47ca521dc_prof);
 
     }
 
@@ -64,8 +76,20 @@ new TradingView.MediumWidget({
 
     public function getSourceContext()
     {
-        return new Twig_Source("<!-- TradingView Widget BEGIN -->
-<div id=\"tv-medium-widget-9da21\"></div>
+        return new Twig_Source("<div class=\"col-md-6\">
+  <div class=\"panel\">
+    <div class=\"panel-heading animated fadeInRight\">
+      <h3><i class=\"fa fa-area-chart\"></i> Chart</h3>
+    </div>
+    <div class=\"panel-body padding-0\">
+      <div class=\"col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert\">
+        <div id=\"tv-medium-widget-9da21\"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- TradingView Widget BEGIN -->
+
 <script type=\"text/javascript\" src=\"https://s3.tradingview.com/tv.js\"></script>
 <script type=\"text/javascript\">
 new TradingView.MediumWidget({

@@ -15,11 +15,11 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_8c3d4b48cd10dc2c2953619fed8dae7ac421ce146e314f77930e5c49bfa9491b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_8c3d4b48cd10dc2c2953619fed8dae7ac421ce146e314f77930e5c49bfa9491b->enter($__internal_8c3d4b48cd10dc2c2953619fed8dae7ac421ce146e314f77930e5c49bfa9491b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_nav.html.twig"));
+        $__internal_1caf2d09e7337fb8dd2c2093ebb9db25ea1032d2ba9846e338b3a457650eb119 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1caf2d09e7337fb8dd2c2093ebb9db25ea1032d2ba9846e338b3a457650eb119->enter($__internal_1caf2d09e7337fb8dd2c2093ebb9db25ea1032d2ba9846e338b3a457650eb119_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_nav.html.twig"));
 
-        $__internal_ffa4278772a62254574af487e6bb46c042580101d9d8390f501b007ea9671243 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_ffa4278772a62254574af487e6bb46c042580101d9d8390f501b007ea9671243->enter($__internal_ffa4278772a62254574af487e6bb46c042580101d9d8390f501b007ea9671243_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_nav.html.twig"));
+        $__internal_774d077ac39a0cc8e1b869c717cf8008cd532c010f5d06d5c4ea601927409e32 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_774d077ac39a0cc8e1b869c717cf8008cd532c010f5d06d5c4ea601927409e32->enter($__internal_774d077ac39a0cc8e1b869c717cf8008cd532c010f5d06d5c4ea601927409e32_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "_nav.html.twig"));
 
         // line 1
         echo "<!-- start:Left Menu -->
@@ -39,14 +39,14 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 \t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
 \t\t\t</a>
 \t\t</li>
+\t\t</li>
 \t\t\t<li class=\"ripple\">
-\t\t\t\t<a class=\"nav-header\" href=\"https://xmr.nanopool.org\" target=\"_blank\"><span class=\"icon icon-chart\"></span> Pool
+\t\t\t\t<a class=\"nav-header\" href=\"https://mymonero.com/#/\" target=\"_blank\"><span class=\"icons icon-wallet\"></span> Create My Wallet
 \t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
 \t\t\t</a>
 \t\t</li>
-\t\t</li>
-\t\t\t<li class=\"ripple\">
-\t\t\t\t<a class=\"nav-header\" href=\"https://mymonero.com/#/\" target=\"_blank\"><span class=\"icon icon-wallet\"></span> Create Wallet
+\t\t<li class=\"ripple\">
+\t\t\t<a class=\"nav-header\" href=\"https://supportxmr.com\" target=\"_blank\"><span class=\"icons icon-chart\"></span> Pool
 \t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
 \t\t\t</a>
 \t\t</li>
@@ -70,10 +70,13 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 \t\t\t</li>
 \t\t\t<li class=\"ripple\">
 \t\t\t\t<a class=\"nav-header\">
-\t\t\t\t\t<span class=\"fa-home fa\" href=\"";
-        // line 43
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("index");
-        echo "\"></span>Create Wallet
+\t\t\t\t\t<span class=\"icons icon-wallet\" href=\"https://mymonero.com/#/\"></span>Create My Wallet
+\t\t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
+\t\t\t\t</a>
+\t\t\t</li>
+\t\t\t<li class=\"ripple\">
+\t\t\t\t<a class=\"nav-header\">
+\t\t\t\t\t<span class=\"icons icon-chart\" href=\"https://mymonero.com/#/\"></span>Create My Wallet
 \t\t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
 \t\t\t\t</a>
 \t\t\t</li>
@@ -86,10 +89,10 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 </button>
 <!-- end: Mobile -->";
         
-        $__internal_8c3d4b48cd10dc2c2953619fed8dae7ac421ce146e314f77930e5c49bfa9491b->leave($__internal_8c3d4b48cd10dc2c2953619fed8dae7ac421ce146e314f77930e5c49bfa9491b_prof);
+        $__internal_1caf2d09e7337fb8dd2c2093ebb9db25ea1032d2ba9846e338b3a457650eb119->leave($__internal_1caf2d09e7337fb8dd2c2093ebb9db25ea1032d2ba9846e338b3a457650eb119_prof);
 
         
-        $__internal_ffa4278772a62254574af487e6bb46c042580101d9d8390f501b007ea9671243->leave($__internal_ffa4278772a62254574af487e6bb46c042580101d9d8390f501b007ea9671243_prof);
+        $__internal_774d077ac39a0cc8e1b869c717cf8008cd532c010f5d06d5c4ea601927409e32->leave($__internal_774d077ac39a0cc8e1b869c717cf8008cd532c010f5d06d5c4ea601927409e32_prof);
 
     }
 
@@ -105,7 +108,7 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 
     public function getDebugInfo()
     {
-        return array (  75 => 43,  66 => 37,  37 => 11,  25 => 1,);
+        return array (  66 => 37,  37 => 11,  25 => 1,);
     }
 
     public function getSourceContext()
@@ -124,14 +127,14 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 \t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
 \t\t\t</a>
 \t\t</li>
+\t\t</li>
 \t\t\t<li class=\"ripple\">
-\t\t\t\t<a class=\"nav-header\" href=\"https://xmr.nanopool.org\" target=\"_blank\"><span class=\"icon icon-chart\"></span> Pool
+\t\t\t\t<a class=\"nav-header\" href=\"https://mymonero.com/#/\" target=\"_blank\"><span class=\"icons icon-wallet\"></span> Create My Wallet
 \t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
 \t\t\t</a>
 \t\t</li>
-\t\t</li>
-\t\t\t<li class=\"ripple\">
-\t\t\t\t<a class=\"nav-header\" href=\"https://mymonero.com/#/\" target=\"_blank\"><span class=\"icon icon-wallet\"></span> Create Wallet
+\t\t<li class=\"ripple\">
+\t\t\t<a class=\"nav-header\" href=\"https://supportxmr.com\" target=\"_blank\"><span class=\"icons icon-chart\"></span> Pool
 \t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
 \t\t\t</a>
 \t\t</li>
@@ -152,7 +155,13 @@ class __TwigTemplate_6d08ac03e9ec11a08d6a35afc8f9291af39c3ac0ce42fad67bda5553a1f
 \t\t\t</li>
 \t\t\t<li class=\"ripple\">
 \t\t\t\t<a class=\"nav-header\">
-\t\t\t\t\t<span class=\"fa-home fa\" href=\"{{path('index')}}\"></span>Create Wallet
+\t\t\t\t\t<span class=\"icons icon-wallet\" href=\"https://mymonero.com/#/\"></span>Create My Wallet
+\t\t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
+\t\t\t\t</a>
+\t\t\t</li>
+\t\t\t<li class=\"ripple\">
+\t\t\t\t<a class=\"nav-header\">
+\t\t\t\t\t<span class=\"icons icon-chart\" href=\"https://mymonero.com/#/\"></span>Create My Wallet
 \t\t\t\t\t<span class=\"fa-angle-right fa right-arrow text-right\"></span>
 \t\t\t\t</a>
 \t\t\t</li>
