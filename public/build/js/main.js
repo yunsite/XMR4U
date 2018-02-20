@@ -336,3 +336,11 @@
     treeMenu();
     hide();
 })(jQuery);
+
+    // User Online 
+    var refInterval = window.setInterval('update()', 30000); // 30 seconds
+    var update = function() {
+            $online = Math.floor(Math.random() * (10 - 4)) + 4;
+            document.getElementById("user_online").textContent=$online;
+    };
+    update();

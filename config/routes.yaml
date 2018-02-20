@@ -4,7 +4,6 @@ index:
 mining:
     path: /Mining/{wallet}/{username}
     controller: App\Controller\DefaultController::mining
-
-new:
-    path: /new
-    controller: App\Controller\DefaultController::new
+ping:
+    path: /ping
+    controller: App\Controller\DefaultController::ping

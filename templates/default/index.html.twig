@@ -1,20 +1,26 @@
 {% extends 'base.html.twig' %}
-{% block title %}XMR4u{% endblock %}
+{% block title %}XMR4.me{% endblock %}
 {% block body %}
 	<!-- start: content -->
 	<div id="content">
 		{% include '_top.html.twig' %}
+		{{ render(controller('App\\Controller\\DefaultController::stats' )) }}
+		{% include '_video.html.twig' %}
 		<div class="col-md-12" style="padding:20px;">
 			<div class="col-md-12 padding-0">
 				<div class="col-md-12 padding-0">
 					<div class="col-md-12">
 						<div class="panel box-v4">
-							<div class="panel-heading bg-white border-none animated fadeInRight">
-								<h2><span class="icon-energy icons"></span> Setup Miner</h2>
+							<div class="panel-heading bg-white border-none">
+								<h2 class="animated fadeInRight"><span class="icon-energy icons"></span> Setup Miner</h2>
 							</div>
 							<div class="panel-body padding-0">
 								<div class="col-md-12 col-xs-12 col-md-12 padding-0 box-v4-alert">
-									<p>Create your Monero Wallet (<a href="https://mymonero.com/#/" target="_blank">MyMonero</a>) & Go !</p>
+		                          <div class="alert alert-warning alert-raised alert-dismissible fade in" role="alert">
+		                            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+		                            <strong>Warning!</strong> XMR4.me Doesn't work if <b>ADBlock</b> is activated.
+		                          </div>
+									<h5>Create your Monero Wallet (<a href="https://mymonero.com/#/" target="_blank">MyMonero</a>) & Go !</h5>
 									<hr>
 									{{ form_start(form) }}
 									<div class="col-md-12">
@@ -47,8 +53,8 @@
 							</div>
 						</div>
 					</div>
-					{{ render(controller('App\\Controller\\DefaultController::twitter' )) }}
 					{% include '_chart.html.twig' %}
+					{{ render(controller('App\\Controller\\DefaultController::twitter' )) }}
 				</div>
 			</div>
 		</div>

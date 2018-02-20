@@ -2,16 +2,30 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Monero Mining{% endblock %}</title>
+        <title>{% block title %}XMR4.me | Mining{% endblock %}</title>
+        <meta name="google-site-verification" content="yLWjzMYH2pl8FIYgwAlDCeFdgMrHL6HbsJw_CCtTKyU" />
+        
+        <meta name="description" content="Anonymous & Easy Web Mining cryptocurrency Monero (XMR).">
+        <meta name="keywords" content="XMR4 me, XMR for me, XMR mining for me, XMR4.me, Mining Monero, Mining XMR, Anonymous Mining, Crypto Currency Mining, Website Mining">
+        <meta name="author" content="Thibault Marquand">
+        <meta property="image" content="{{asset('build/img/rick_head.png')}}" />
+
+        <meta property="og:title" content="XMR4.me | Mining Monero (XMR)" />
+        <meta name="og:description" content="Anonymous & Easy Web Mining cryptocurrency Monero (XMR).">
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="{{ app.request.uri }}" />
+        <meta property="og:image" content="{{asset('build/img/rick_head.png')}}" />
+
+
         {% block stylesheets %}
             <link rel="stylesheet" type="text/css" href="{{ asset('build/css/bootstrap.min.css') }}">
                 <!-- plugins -->
             <link rel="stylesheet" type="text/css" href="{{ asset('build/css/plugins/font-awesome.min.css') }}"/>
             <link rel="stylesheet" type="text/css" href="{{ asset('build/css/plugins/simple-line-icons.css') }}"/>
             <link rel="stylesheet" type="text/css" href="{{ asset('build/css/plugins/animate.min.css') }}"/>
-            <link rel="stylesheet" type="text/css" href="{{ asset('build/css/plugins/fullcalendar.min.css') }}"/>
             <link href="{{ asset('build/css/style.css') }}" rel="stylesheet">
-            <link rel="icon" type="image/png" href="{{asset('build/img/rick.png')}}" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="icon" type="image/png" href="{{asset('build/img/rick_head.png')}}" />
         {% endblock %}
         
     </head>
@@ -29,15 +43,11 @@
 
         <!-- plugins -->
         <script src="{{ asset('build/js/plugins/moment.min.js') }}"></script>
-        <script src="{{ asset('build/js/plugins/fullcalendar.min.js') }}"></script>
         <script src="{{ asset('build/js/plugins/jquery.nicescroll.js') }}"></script>
-        <script src="{{ asset('build/js/plugins/jquery.vmap.min.js') }}"></script>
-        <script src="{{ asset('build/js/plugins/maps/jquery.vmap.world.js') }}"></script>
-        <script src="{{ asset('build/js/plugins/jquery.vmap.sampledata.js') }}"></script>
 
 
         <!-- custom -->
-         <script src="{{ asset('build/js/main.js') }}"></script>
+        <script src="{{ asset('build/js/main.js') }}"></script>
          
          <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101987237-4"></script>
